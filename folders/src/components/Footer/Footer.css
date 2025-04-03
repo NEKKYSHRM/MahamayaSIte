@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #008000;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.pre-footer {
+  background-color: green;
+  margin-bottom: 10px;
+}
+
+.pre-footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.05vw;
+  padding: 0.4vw 0;
+  margin-top: 3rem;
+}
+
+.pre-footer ul li {
+  list-style: none;
+  padding: 0 2vw;
+}
+
+.pre-footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-objects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2vw;
+  background-color: #000000;
+}
+
+.footer-lists {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  order: 1;
+  font-size: 1vw;
+}
+
+.footer-lists ul {
+  list-style: none;
+}
+
+.footer-lists ul li {
+  margin: 1vw;
+}
+
+.footer-lists ul li a {
+  text-decoration: none;
+  color:white;
+}
+
+.footer-rightSide {
+  order: 3;
+  color: white;
+  width: 30%;
+  font-size: 1vw;
+}
+
+.footer-rightSide p {
+  margin: 1vw 0;
+}
+
+.footer-copyright {
+  background-color: rgb(26, 26, 26);
+  color: rgb(214, 211, 211);
+  text-align: center;
+  padding: 8px;
+  font-size: 1vw;
+}

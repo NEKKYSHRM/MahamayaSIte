@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #008000;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.mainNavbar {
+  box-sizing: border-box;
+  background-color: #FEE300;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.mainNavbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+.mainNavbar ul li {
+  position: relative;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.mainNavbar ul li:hover {
+  color: #ff3700;
+}
+
+.mainNavbar ul li img {
+  margin-left: 0.3vw;
+  width: 1vw;
+  color: black;
+}
+
+/* Submenu's */
+
+.sub-menu{
+    display: none;
+  }
+
+.mainNavbar ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  top: 0.3vw;
+  background-color: black;
+  margin-top: 15px;
+  margin-left: -15px;
+  cursor: pointer;
+}
+
+.mainNavbar ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.mainNavbar ul li:hover .sub-menu ul li {
+  width: 150px;
+  padding: 10px;
+  border-radius: 0;
+  text-align: left;
+}
+
+.mainNavbar ul li:hover .sub-menu ul li .Navbar-Link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.activeNavbar {
+  color: green;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .mainNavbar {
+    padding: 3px 0;
+    gap: 3px;
+  }
+  
+  .mainNavbar ul {
+    font-size: 2vw;
+  }
+}
