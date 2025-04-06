@@ -70,15 +70,16 @@ nav {
 }
 
 .mainNavbar ul li:hover .sub-menu ul li {
-  width: 150px;
+  /* width: 150px; */
   padding: 10px;
   border-radius: 0;
   text-align: left;
+  color: white;
 }
 
-.mainNavbar ul li:hover .sub-menu ul li .Navbar-Link {
-  text-decoration: none;
-  color: #ffffff;
+.mainNavbar ul li:hover .sub-menu ul li:hover .Navbar-Link {
+  text-decoration: underline;
+  color: rgb(96, 96, 231);
 }
 
 .activeNavbar {

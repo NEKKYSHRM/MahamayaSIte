@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="w-full flex flex-col">
+      <main className="xl-w-full flex flex-col">
         <div className="navSide">
           <ul>
             <li>
@@ -41,7 +41,7 @@ export default function Home() {
               <a href="sideNav-HTML-Pages/placement.html">Placement</a>
             </li>
             <li>
-              <a href="sideNav-HTML-Pages/courseCatalouge.html">
+              <a href="/courses">
                 Course Catalouge
               </a>
             </li>
@@ -71,7 +71,7 @@ export default function Home() {
                 <a href="/placement">Placement</a>
               </button>
               <button>
-                <a href="sideNav-HTML-Pages/courseCatalouge.html">
+                <a href="/courses">
                   Course Catalouge
                 </a>
               </button>
@@ -95,11 +95,11 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hero-right">
-            <table className="events">
+          <div className="flex w-full px-5">
+            <table className="w-full border-2 border-slate-400">
               <thead>
                 <tr>
-                  <th className="table-head">Events</th>
+                  <th className="table-head">News & Events</th>
                 </tr>
               </thead>
               <tbody className="table-body">
@@ -110,60 +110,17 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td>
-                    <a href="#">Admissions</a>
+                    <a href="#">Admissions lorem ipsum</a>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="#">Admissions</a>
+                    <a href="#">Admissions lorem ipsum</a>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="#">Admissions</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions</a>
-                  </td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <th className="table-footer">View More</th>
-                </tr>
-              </tfoot>
-            </table>
-
-            <table className="events">
-              <thead>
-                <tr>
-                  <th className="table-head">News</th>
-                </tr>
-              </thead>
-              <tbody className="table-body">
-                <tr>
-                  <td>
-                    <a href="#">
-                      Lorem ipsum dolor sit amet consectetur adipi sicing elit.
-                      Quibusdam, quod.
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions</a>
+                    <a href="#">Admissions lorem ipsum</a>
                   </td>
                 </tr>
                 <tr>
@@ -251,21 +208,21 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full py-8 px-16 flex justify-around bg-gray-50">
+        <div className="w-full py-8 px-16 flex gap-4 xl:gap-0 justify-around bg-gray-50">
           <div className="flex flex-col gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-center items-center p-2">
             <Image
               src={chancellor}
               alt=""
               className="w-32 h-32 rounded-full border-pink border-2"
             ></Image>
-            <h3 className="font-bold text-blue-950">Smt. Anandiben Patel</h3>
+            <h3 className="font-bold text-blue-950 xl:text-base">Smt. Anandiben Patel</h3>
             <p className="text-sm">Hon'ble Governor of Uttar Pradesh</p>
             <div className="w-full gap-1 flex flex-row mt-2">
               <a
                 href="https://upgovernor.gov.in/en/page/profile"
                 target="_blank"
               >
-                <button className="bg-pink-700 text-white font-bold py-1 px-10">
+                <button className="bg-pink-700 text-white text-base font-bold py-1 px-10">
                   Profile
                 </button>
               </a>
@@ -273,7 +230,7 @@ export default function Home() {
                 href="https://upgovernor.gov.in/en/page/profile"
                 target="_blank"
               >
-                <button className="bg-pink-700 text-white font-bold py-1 px-10">
+                <button className="bg-pink-700 text-white text-base font-bold py-1 px-10">
                   Message
                 </button>
               </a>

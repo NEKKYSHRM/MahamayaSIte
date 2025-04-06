@@ -41,7 +41,7 @@
 .hero {
   box-sizing: border-box;
   width: 100%;
-  padding: 2vw;
+  padding: 2vw 0;
   display: grid;
   grid-template-columns: 30% 40% 30%;
   grid-gap: 0;
@@ -118,8 +118,8 @@
 }
 
 .table-body {
-  max-height: 100px;
-  overflow-y: auto;
+  max-height: 330px;
+  overflow-y: scroll;
   display: block;
 }
 

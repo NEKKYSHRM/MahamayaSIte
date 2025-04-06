@@ -19,7 +19,7 @@ export default function Navbar() {
             <li>
               About Us
               <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu">
+              <div className="sub-menu w-56">
                 <ul>
                   <li>
                     <Link href="/aboutus" className="Navbar-Link">
@@ -37,7 +37,7 @@ export default function Navbar() {
             <li>
               Admissions
               <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu">
+              <div className="sub-menu w-52">
                 <ul>
                   <li>
                     <Link href="/admissions" className="Navbar-Link">
@@ -70,7 +70,7 @@ export default function Navbar() {
             <li>
               Academics
               <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu">
+              <div className="sub-menu w-48">
                 <ul>
                   <li>
                     <Link href="/courses" className="Navbar-Link">
@@ -96,18 +96,43 @@ export default function Navbar() {
               </div>
             </li>
             <li>
-              Campus
+              Departments
               <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu">
+              <div className="sub-menu w-96">
                 <ul>
                   <li>
                     <Link href="#" className="Navbar-Link">
-                      Campus Tour
+                      Department of Farm Machinery & Power Engineering
                     </Link>
                   </li>
                   <li>
                     <Link href="#" className="Navbar-Link">
-                      Campus Images
+                      Department of Processing & Food Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="Navbar-Link">
+                      Department of Soil Water & Conservation Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="Navbar-Link">
+                      Department of Irrigation & Drainage Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="Navbar-Link">
+                      Department of Renewable Energy Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="Navbar-Link">
+                      Department of Computer Science & Engineering
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="Navbar-Link">
+                      Department of Basic Engineering & Applied Sciences
                     </Link>
                   </li>
                 </ul>
@@ -116,7 +141,7 @@ export default function Navbar() {
             <li>
               Researches
               <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu">
+              <div className="sub-menu w-48">
                 <ul>
                   <li>
                     <Link href="#" className="Navbar-Link">
@@ -134,7 +159,7 @@ export default function Navbar() {
             <li>
               Alumni
               <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu">
+              <div className="sub-menu w-56">
                 <ul>
                   <li>
                     <Link href="#" className="Navbar-Link">
@@ -167,7 +192,7 @@ export default function Navbar() {
             <li>
               Media
               <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu">
+              <div className="sub-menu w-32">
                 <ul>
                   <li>
                     <Link href="#" className="Navbar-Link">
