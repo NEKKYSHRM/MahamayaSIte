@@ -17,7 +17,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/dean.JPG" width={500} height={300}
+              src="/FacultyPic/dean.JPG"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -47,7 +49,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/rjs.JPG" width={500} height={300}
+              src="/FacultyPic/rjs.JPG"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -81,7 +85,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/vks.JPG" width={500} height={300}
+              src="/FacultyPic/vks.jpg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -115,7 +121,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/bky.JPG" width={500} height={300}
+              src="/FacultyPic/bky.JPG"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -143,7 +151,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/pkm.JPG" width={500} height={300}
+              src="/FacultyPic/pkm.JPG"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -177,7 +187,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/vipul.JPG" width={500} height={300}
+              src="/FacultyPic/vipul.JPG"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -211,7 +223,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/paul.JPG" width={500} height={300}
+              src="/FacultyPic/paul.jpg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -245,7 +259,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/vikas.JPG" width={500} height={300}
+              src="/FacultyPic/vikas.JPG"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -279,7 +295,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/manish.JPG" width={500} height={300}
+              src="/FacultyPic/manish.JPG"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -313,7 +331,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/shivam.JPG" width={500} height={300}
+              src="/FacultyPic/shivam.jpg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -343,7 +363,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/prabhakar.jpeg" width={500} height={300}
+              src="/FacultyPic/prabhakar.jpeg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -373,7 +395,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/neeraj.jpeg" width={500} height={300}
+              src="/FacultyPic/neeraj.jpeg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -403,7 +427,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/ankit.JPEG" width={500} height={300}
+              src="/FacultyPic/ankit.jpeg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -433,7 +459,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/rjs.JPEG" width={500} height={300}
+              src="/FacultyPic/lalit.jpeg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -463,7 +491,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/pnv.JPEG" width={500} height={300}
+              src="/FacultyPic/pnv.jpeg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -493,7 +523,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/rjs.JPEG" width={500} height={300}
+              src="/FacultyPic/seema.JPG"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -523,7 +555,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/rjs.JPEG" width={500} height={300}
+              src="/FacultyPic/rjs.JPEG"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -553,7 +587,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/rjs.JPEG" width={500} height={300}
+              src="/FacultyPic/ashish.png"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -563,7 +599,7 @@ function page() {
               <div className="w-full py-0.5 bg-slate-800"></div>
               <div className="my-2">
                 <span className="text-green-900 font-extrabold text-2xl">
-                Er. Ashish Gupta
+                  Er. Ashish Gupta
                 </span>
                 <span className="text-blue-900 font-extrabold mx-4">
                   (Computer Science and Engineering)
@@ -583,7 +619,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/sushil.JPEG" width={500} height={300}
+              src="/FacultyPic/sushil.jpeg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -593,7 +631,7 @@ function page() {
               <div className="w-full py-0.5 bg-slate-800"></div>
               <div className="my-2">
                 <span className="text-green-900 font-extrabold text-2xl">
-                Dr. Sushil Kumar Choudhary
+                  Dr. Sushil Kumar Choudhary
                 </span>
                 <span className="text-blue-900 font-extrabold mx-4">
                   (Mechanical Engineering)
@@ -613,7 +651,9 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="/FacultyPic/sanjay.JPEG" width={500} height={300}
+              src="/FacultyPic/sanjay.jpeg"
+              width={500}
+              height={300}
               className="w-56 h-64 flex flex-col justify-center items-center"
               alt=""
             ></Image>
@@ -623,7 +663,7 @@ function page() {
               <div className="w-full py-0.5 bg-slate-800"></div>
               <div className="my-2">
                 <span className="text-green-900 font-extrabold text-2xl">
-                Dr. Sanjay Kumar Singh
+                  Dr. Sanjay Kumar Singh
                 </span>
                 <span className="text-blue-900 font-extrabold mx-4">
                   (Chemistry)

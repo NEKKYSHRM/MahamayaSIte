@@ -17,7 +17,7 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
             <Image
-              src="/facultyPic/dean.jpg"
+              src="/facultyPic/dean.JPG"
               alt={`student's profile`}
               fill
               style={{ objectFit: "cover" }}
@@ -69,7 +69,7 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
             <Image
-              src="/facultyPic/pkm.jpg"
+              src="/facultyPic/pkm.JPG"
               alt={`student's profile`}
               fill
               style={{ objectFit: "cover" }}
@@ -95,7 +95,7 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
             <Image
-              src="/facultyPic/pkm.jpg"
+              src="/facultyPic/pkm.JPG"
               alt={`student's profile`}
               fill
               style={{ objectFit: "cover" }}
@@ -121,7 +121,7 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
             <Image
-              src="/facultyPic/vikas.jpg"
+              src="/facultyPic/vikas.JPG"
               alt={`student's profile`}
               fill
               style={{ objectFit: "cover" }}
@@ -147,7 +147,7 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
             <Image
-              src="/facultyPic/vikas.jpg"
+              src="/facultyPic/vikas.JPG"
               alt={`student's profile`}
               fill
               style={{ objectFit: "cover" }}
@@ -173,7 +173,7 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
             <Image
-              src="/facultyPic/manish.jpg"
+              src="/facultyPic/manish.JPG"
               alt={`student's profile`}
               fill
               style={{ objectFit: "cover" }}
@@ -225,7 +225,7 @@ function page() {
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
             <Image
-              src="/facultyPic/vipul.jpg"
+              src="/facultyPic/vipul.JPG"
               alt={`student's profile`}
               fill
               style={{ objectFit: "cover" }}

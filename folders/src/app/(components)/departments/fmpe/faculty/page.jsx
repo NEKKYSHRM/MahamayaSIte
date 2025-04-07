@@ -26,7 +26,7 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
-                      src="/facultyPic/rjs.jpg"
+                      src="/facultyPic/rjs.JPG"
                       alt={`student's profile`}
                       fill
                       style={{ objectFit: "cover" }}
@@ -84,7 +84,7 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
-                      src="/facultyPic/bky.jpg"
+                      src="/facultyPic/bky.JPG"
                       alt={`student's profile`}
                       fill
                       style={{ objectFit: "cover" }}
@@ -142,7 +142,7 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
-                      src="/facultyPic/pkm.jpg"
+                      src="/facultyPic/pkm.JPG"
                       alt={`student's profile`}
                       fill
                       style={{ objectFit: "cover" }}
@@ -200,7 +200,7 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
-                      src="/facultyPic/manish.jpg"
+                      src="/facultyPic/manish.JPG"
                       alt={`student's profile`}
                       fill
                       style={{ objectFit: "cover" }}
