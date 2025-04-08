@@ -52,7 +52,7 @@ function page() {
               </div>
               <div className="flex flex-col gap-2 my-5 font-bold">
                 <p>{faculty.designation}</p>
-                <p>Department of Process and Food Engineering</p>
+                <p>{faculty.specialization}</p>
                 <Link
                   href={`/faculty/${faculty.id}`}
                   className="underline text-blue-600"

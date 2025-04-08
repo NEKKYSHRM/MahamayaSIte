@@ -2,7 +2,7 @@
 
 import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
-import FmpeLeftNav from "@/components/FmpeLeftNav/LeftNav";
+import PfeLeftNav from "@/components/PfeLeftNav/LeftNav";
 import Image from "next/image";
 
 export default function page() {
@@ -84,7 +84,7 @@ export default function page() {
         </div>
       </div>
       <div className="w-full">
-        <FmpeLeftNav />
+        <PfeLeftNav />
       </div>
     </div>
   );

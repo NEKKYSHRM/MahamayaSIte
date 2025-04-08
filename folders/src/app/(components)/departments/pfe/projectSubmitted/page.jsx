@@ -2,7 +2,7 @@
 
 import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
-import FmpeLeftNav from "@/components/FmpeLeftNav/LeftNav";
+import PfeLeftNav from "@/components/PfeLeftNav/LeftNav";
 import Image from "next/image";
 
 export default function page() {
@@ -34,7 +34,7 @@ export default function page() {
                 <td className="border border-black w-2/12 align-top p-0">
                   <table className="w-full">
                     <tbody>
-                      {["1", "2", "3", "4", "5"].map(
+                      {["1", "2"].map(
                         (subject, index) => (
                           <tr key={index} className="border-b border-black">
                             <td className="p-1 w-1/5 text-center text-sm font-semibold">
@@ -52,9 +52,6 @@ export default function page() {
                       {[
                         "UPCAR, Lucknow",
                         "UP Higher Education",
-                        "Council of Science & Technology U.P.",
-                        "RKVY",
-                        "NABARD",
                       ].map((subject, index) => (
                         <tr key={index} className="border-b border-black">
                           <td className="p-1 px-4 w-1/5 text-left text-sm font-semibold">
@@ -68,7 +65,7 @@ export default function page() {
                 <td className="border border-black w-2/12 align-top p-0">
                   <table>
                     <tbody>
-                      {["10", "01", "01", "06", "02"].map(
+                      {["10", "01"].map(
                         (subject, index) => (
                           <tr key={index} className="border-b border-black">
                             <td className="p-1 w-1/5 text-center text-sm font-semibold">
@@ -86,7 +83,7 @@ export default function page() {
         </div>
       </div>
       <div className="w-full">
-        <FmpeLeftNav />
+        <PfeLeftNav />
       </div>
     </div>
   );

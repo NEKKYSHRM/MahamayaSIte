@@ -1,5 +1,39 @@
 [
   {
+    "id": "nc-shahi",
+    "fullName": "Dr. Navin Chandra Shahi :",
+    "designation": "Professor cum Dean MCAET",
+    "highestQualification": "Ph.D.",
+    "specialization": "Process & Food Engineering ",
+    "totalExperience": "27 Years",
+    "researchPapers": null,
+    "nationalJournals": 4,
+    "bookChapters": 2,
+    "projectsHandled": 0,
+    "technicalBulletins": 1,
+    "booksISBN": 0,
+    "internationalJournals": 20,
+    "manuals": 5,
+    "patents": 4,
+    "awards": 0,
+    "trainingsAttended": 5,
+    "seminarsAttended": 11,
+    "professionalSocieties": [],
+    "studentsGuided": {
+      "btechMtechPhd": "4"
+    },
+    "studentsBeingGuided": {
+      "btechMtechPhd": "2"
+    },
+    "ongoingProjects": ["0"],
+    "accomplishedProjects": ["8"],
+    "phone": "9675782120",
+    "email": "ncshahi2025@gmail.com",
+    "image": "/FacultyPic/dean.JPG",
+    "bio1": "Dr. N.C. Shahi, born on 11th September 1973, is a distinguished academician, researcher, and administrator with over 27 years of experience spanning teaching, research, and industry. Currently serving as the Head of the Department of Post-Harvest Process and Food Engineering (PHP&FE), College of Technology, GBPUAT, Pantnagar, he has previously held key positions including Professor and Associate Professor at the same department, and Assistant Professor at SKUAST-K, Srinagar. With a Ph.D. in Process and Food Engineering (2014) and an M.Tech in Agricultural Engineering (1997), his research focuses on agriculture mechanization, post-harvest engineering, food processing, and solar drying technologies. He has guided 19 PhD and 42 M.Tech scholars and has taught across B.Tech, M.Tech, and PhD levels in subjects like Food Processing Equipment Design, Mass Transfer Operations, and Process Control. He has earned multiple national and international recognitions such as the Uttarakhand Governor’s Award for Best Research (2019), Excellence in Research Awards, and numerous best paper/poster awards. His contributions have led to patents both in India and abroad including innovations like a solar-powered dryer, AI-based crop protection device, and edible coating machines. His lifetime citation record places him in the top 6% of scientists globally, with 1387 citations, an h-index of 23, and an i10-index of 47 (as per ResearchGate 2024). Dr. N.C.Shahi continues to contribute extensively to academia and innovation, with a strong dedication to sustainable agricultural technology and rural development.",
+    "bio2": "He has led and contributed to 13 externally funded research projects as Principal or Co-Investigator, including notable work on solar drying, zero energy cool chambers, packaging for shelf-life extension, greenhouse vegetable production, and post-harvest technology. His research excellence is reflected in over 80 NAAS-rated publications (44 with NAAS ≥ 8 and 38 between NAAS 4–8), 40 abstracts in proceedings, 12 lead lectures, 7 book chapters/popular articles, and 3 books/lab manuals. His innovative contributions have resulted in several patents both nationally and internationally, such as devices for solar drying, AI-based crop protection, and extruded snacks. He is recognized among the top 6% of researchers globally (ResearchGate, 2024), with 1387 citations, an h-index of 23, and an i10-index of 47. He has also been actively involved in international academic engagements, having visited five countries as a presenter, session chair, and visiting professor. These include a Visiting Professorship at the University of Manitoba, Canada (2023), and academic presentations in Australia (2015), Bosnia and Herzegovina (2016), Malaysia (2018), and Thailand (2019). His research and leadership excellence has earned him several honors such as the Uttarakhand Governor’s Award for Best Research (2019), the Research Leadership Award (2020, USA), Best Paper and Poster Awards, and multiple recognitions from professional engineering bodies. He has attended more than 52 professional development events, continues to mentor research scholars, and remains deeply committed to innovation and sustainable development in agriculture and food processing technologies."
+  },
+  {
     "id": "birjesh-kumar-yaduvanshi",
     "fullName": "Dr. Birjesh Kumar Yaduvanshi",
     "designation": "Associate Professor",
@@ -136,6 +170,40 @@
     "image": "/FacultyPic/prabhakar.jpeg",
     "bio1": "Dr. Prabhakar Shukla is an Assistant Professor in the Department of Farm Machinery and Power Engineering. With a Ph.D. in the field and over six years of academic experience, he has contributed significantly to research and innovation. He has published 15 research papers, authored 4 book chapters, and holds 1 patent. His dedication extends to guiding students, attending numerous seminars and trainings, and actively contributing to technical literature.",
     "bio2": "An accomplished academician and researcher, Dr. Prabhakar Shukla specializes in Farm Machinery and Power Engineering. He has authored and co-authored over 15 research publications, 4 manuals, and several technical bulletins. His contributions to academia are backed by a strong foundation in research and a passion for student mentorship. With 4 prestigious awards and consistent participation in professional development programs, he is a dynamic asset to the academic community."
+  },
+  {
+    "id": "lalit",
+    "fullName": "Er. Lalit Kumar",
+    "designation": "Assistant Professor",
+    "highestQualification": "M.Tech",
+    "specialization": "COMPUTER SCIENCE AND ENGINEERING",
+    "totalExperience": "06",
+    "researchPapers": 15,
+    "nationalJournals": 11,
+    "bookChapters": 4,
+    "projectsHandled": 0,
+    "technicalBulletins": 8,
+    "booksISBN": 0,
+    "internationalJournals": 4,
+    "manuals": 4,
+    "patents": 1,
+    "awards": 4,
+    "trainingsAttended": 7,
+    "seminarsAttended": 8,
+    "professionalSocieties": [],
+    "studentsGuided": {
+      "btechMtechPhd": "2"
+    },
+    "studentsBeingGuided": {
+      "btechMtechPhd": ""
+    },
+    "ongoingProjects": [],
+    "accomplishedProjects": [],
+    "phone": "9598168704",
+    "email": "lalitkmr170@gmail.com",
+    "image": "/FacultyPic/lalit.jpeg",
+    "bio1": "Er. Lalit Kumar is a dedicated academician and researcher currently pursuing a Ph.D. in Computer Science and Engineering from Motilal Nehru National Institute of Technology (MNNIT), Allahabad, and is in his 7th semester of research. He holds an M.Tech. in Computer Science and Engineering from Kamla Nehru Institute of Technology (KNIT), Sultanpur, where he was awarded the Gold Medal in 2019, and a B.Tech. in CSE from Dr. A. P. J. Abdul Kalam Technical University. With strong academic credentials, Er. Lalit Kumar has qualified the UGC-NET in Computer Science twice and also cleared the CUCET exam. His research interests include Machine Learning, Deep Learning, Computer Vision, Data & Information Security, and the Internet of Things.",
+    "bio2": "He has authored 8+ research publications in reputed SCI, Scopus, and UGC journals, and presented at several IEEE international conferences. His work includes impactful studies in GANs, video synthesis, plant disease detection, and EEG-based cognitive classification. Notable journals include Multimedia Tools and Applications, Computer Animation and Virtual Worlds, and Digital Signal Processing. In addition to publications, Er. Kumar has 3 patents to his credit, including one granted patent in AI-based surveillance. He is proficient in programming languages like C, C++, Java, Python, and also has experience with Verilog and VHDL. He has previously worked as an Assistant Professor at Seth Vishambhar Nath Institute of Engineering & Technology, Barabanki. His dedication to continuous learning is evident from various faculty development programs and technical trainings, including FDPs at IIT Roorkee, KNIT Sultanpur, and certifications from CETPA INFOTECH. With a rich blend of teaching, research, and development experience, Er. Lalit Kumar remains committed to academic excellence and innovation in computer science."
   },
   {
     "id": "ashish-gupta",

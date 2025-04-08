@@ -160,6 +160,8 @@ export default function Home() {
             </li>
           </ul>
         </div>
+
+        {/* Hero Section */}
         <section className="hero">
           <div className="hero-link">
             <ul>
@@ -369,6 +371,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Gov carousels */}
         <section className="govCarousel">
           <div className="govSlider">
             <div className="gov-slide-track">

@@ -2,7 +2,7 @@
 
 import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
-import FmpeLeftNav from "@/components/FmpeLeftNav/LeftNav";
+import PfeLeftNav from "@/components/PfeLeftNav/LeftNav";
 import Image from "next/image";
 
 export default function page() {
@@ -35,9 +35,16 @@ export default function page() {
                 {
                   sno: 1,
                   title:
-                    "Apparatus for cleaning a solar panel and method thereof",
-                  no: "202311060445 A",
-                  date: "06/10/2023",
+                    "Sugarcane Peeling Machine",
+                  no: "202311060517 A",
+                  date: "13/10/2023",
+                },
+                {
+                  sno: 2,
+                  title:
+                    "Aloe Vera Gel Extraction Machine",
+                  no: "402558-001",
+                  date: "02/02/2024",
                 },
               ].map((item, index) => (
                 <tr
@@ -63,7 +70,7 @@ export default function page() {
         </div>
       </div>
       <div className="w-full">
-        <FmpeLeftNav />
+        <PfeLeftNav />
       </div>
     </div>
   );
