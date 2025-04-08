@@ -2,13 +2,13 @@
 
 import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
-import FmpeLeftNav from "@/components/FmpeLeftNav/LeftNav";
+import PfeLeftNav from "@/components/PfeLeftNav/LeftNav";
 import Image from "next/image";
 
 export default function page() {
   return (
     <div className="w-full items-start grid grid-cols-[25%_50%_25%] place-items-center bg-white box-border">
-      <div className="">
+      <div className=" h-full">
         <RightNav />
       </div>
       <div className="w-full px-6 py-10 flex flex-col gap-7 justify-center">
@@ -35,55 +35,34 @@ export default function page() {
               {[
                 {
                   sno: 1,
-                  name: "Amir Ansari",
+                  name: "Shashank Verma",
                   enroll: "E-12351/21",
                   title:
-                    "Development and Performance Evaluation of Solar Panel Cleaning System",
-                  credit: "Dr. P.K. Mishra",
+                    "Development and Performance Evaluation of Sugarcane Peeling Machine",
+                  credit: "Dr. V. K. Singh",
                 },
                 {
                   sno: 2,
-                  name: "Amar Tiwari",
-                  enroll: "E-13182/22",
+                  name: "Kuldeep Kumar",
+                  enroll: "E-6065/11/21",
                   title:
-                    "Development and Performance Evaluation of Tractor Operated Tree Shaker",
-                  credit: "Er. R.J. Singh",
+                    "Development and Performance Evaluation Aloe Vera Gel Extraction Machine",
+                  credit: "Er. R. J. Singh",
                 },
                 {
                   sno: 3,
-                  name: "Ashu Singh",
-                  enroll: "E-12957/22",
-                  title: "Design and development of Power Operated Seed drill",
-                  credit: "Dr. P.K. Mishra",
+                  name: "Narayan Tiwari",
+                  enroll: "E-14774/23",
+                  title: "To be Finalized",
+                  credit: "Dr. Vipul Chaudhary",
                 },
                 {
                   sno: 4,
-                  name: "Dev Raj Rastogi",
-                  enroll: "E-12955/22",
+                  name: "Satyam Kumar",
+                  enroll: "E-15030/23",
                   title:
-                    "Design and Development of Sensor based walk behind power operated inter and intra row weeder",
-                  credit: "Dr. Manish Kumar",
-                },
-                {
-                  sno: 5,
-                  name: "Marutesh Yadav",
-                  enroll: "E-11064/19/23",
-                  title: "To be finalized…",
-                  credit: "Dr. P.K. Mishra",
-                },
-                {
-                  sno: 6,
-                  name: "Shubham Yadav",
-                  enroll: "E-11069/19/23",
-                  title: "To be finalized…",
-                  credit: "Dr. Manish Kumar",
-                },
-                {
-                  sno: 7,
-                  name: "Satyam Singh",
-                  enroll: "E-10450/18/23",
-                  title: "To be finalized…",
-                  credit: "Dr. Manish Kumar",
+                    "To be Finalized",
+                  credit: "Dr. Vipul Chaudhary",
                 },
               ].map((item, index) => (
                 <tr
@@ -133,27 +112,11 @@ export default function page() {
               {[
                 {
                   sno: 1,
-                  name: "Mukul Dev Surya",
-                  enroll: "E-14861/23",
+                  name: "Shashank Verma",
+                  enroll: "E-12351/21",
                   title:
-                    "To be finalized…",
-                  credit: "Dr. P.K. Mishra",
-                },
-                {
-                  sno: 2,
-                  name: "Rahul Saxena",
-                  enroll: "E-14880/23",
-                  title:
-                    "To be finalized…",
-                  credit: "Dr. P.K. Mishra",
-                },
-                {
-                  sno: 3,
-                  name: "Ritesh Kumar Singh",
-                  enroll: "E-14862/23",
-                  title:
-                    "To be finalized…",
-                  credit: "Dr. P.K. Mishra",
+                    "To be Finalized",
+                  credit: "Dr. V. K. Singh",
                 },
               ].map((item, index) => (
                 <tr
@@ -181,8 +144,8 @@ export default function page() {
           </table>
         </div>
       </div>
-      <div className="w-full">
-        <FmpeLeftNav />
+      <div className="w-full h-full">
+        <PfeLeftNav />
       </div>
     </div>
   );

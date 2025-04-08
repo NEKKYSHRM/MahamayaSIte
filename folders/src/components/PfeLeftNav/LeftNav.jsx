@@ -9,7 +9,7 @@ export default function LeftNav() {
     const router = useRouter()
     const pathname = usePathname();
   return (
-    <div className="w-full border-2 border-dotted border-slate-300 text-black p-2">
+    <div className="w-full h-full border-l-2 border-dotted border-slate-300 text-black p-2">
       <ul className="py-3">
         <li
           onClick={() => router.push("/departments/pfe/aboutDpt")}
@@ -69,7 +69,7 @@ export default function LeftNav() {
             Course Program
           </li>
           <li
-            onClick={() => router.push("/departments/fmpe/pgStudents")}
+            onClick={() => router.push("/departments/pfe/pgStudents")}
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
               hover:underline hover:bg-green-300
               ${

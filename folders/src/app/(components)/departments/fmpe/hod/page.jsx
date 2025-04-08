@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function page() {
   return (
     <div className="w-full items-start grid grid-cols-[25%_50%_25%] place-items-center bg-white box-border">
-      <div className="">
+      <div className=" h-full">
         <RightNav />
       </div>
       <div className="w-full px-6 py-10 flex flex-col gap-7 justify-center">
@@ -26,7 +26,7 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
-                      src="/facultyPic/rjs.JPG"
+                      src="/FacultyPic/rjs.JPG"
                       alt={`student's profile`}
                       fill
                       style={{ objectFit: "cover" }}
@@ -110,7 +110,7 @@ export default function page() {
           </table>
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full h-full">
         <FmpeLeftNav />
       </div>
     </div>

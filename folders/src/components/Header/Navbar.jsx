@@ -17,22 +17,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              About Us
-              <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu w-56">
-                <ul>
-                  <li>
-                    <Link href="/aboutus" className="Navbar-Link">
-                      MCAET Ambedakar Nagar
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Act
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+              <Link href="/aboutus" className="Navbar-Link">
+                About Us
+              </Link>
             </li>
             <li>
               Admissions
@@ -45,7 +32,11 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://upcatet.org/site/pdf/upcatet_online_counselling_schedule.pdf" target="_blank" className="Navbar-Link">
+                    <Link
+                      href="https://upcatet.org/site/pdf/upcatet_online_counselling_schedule.pdf"
+                      target="_blank"
+                      className="Navbar-Link"
+                    >
                       Brouchre
                     </Link>
                   </li>
@@ -55,7 +46,11 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://drive.google.com/file/d/1JBr5sJSfA9A5mGsR3INPIo4d89ZO1_sC/view" target="_blank" className="Navbar-Link">
+                    <Link
+                      href="https://drive.google.com/file/d/1JBr5sJSfA9A5mGsR3INPIo4d89ZO1_sC/view"
+                      target="_blank"
+                      className="Navbar-Link"
+                    >
                       Fees
                     </Link>
                   </li>
@@ -73,12 +68,16 @@ export default function Navbar() {
               <div className="sub-menu w-48">
                 <ul>
                   <li>
-                    <Link href="/courses" className="Navbar-Link">
+                    <Link href="#" className="Navbar-Link">
                       Courses
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://nduat.org/pdf/Academic%20Calendar%202024-25%20II%20Sem.pdf" target="_blank" className="Navbar-Link">
+                    <Link
+                      href="https://nduat.org/pdf/Academic%20Calendar%202024-25%20II%20Sem.pdf"
+                      target="_blank"
+                      className="Navbar-Link"
+                    >
                       Academic Calender
                     </Link>
                   </li>
@@ -101,7 +100,7 @@ export default function Navbar() {
               <div className="sub-menu w-96">
                 <ul>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link href="/departments/fmpe/aboutDpt" className="Navbar-Link">
                       Department of Farm Machinery & Power Engineering
                     </Link>
                   </li>
@@ -190,22 +189,9 @@ export default function Navbar() {
               </div>
             </li>
             <li>
-              Media
-              <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu w-32">
-                <ul>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Gallery
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Web cast
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+              <Link href="/media" className="Navbar-Link">
+                Media
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,12 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import hero1 from "../../public/hero/hero1.jpeg";
 import hero2 from "../../public/hero/hero2.jpeg";
 import vcPic from "../../public/FacultyPic/VC_PIC.jpg";
-import chancellor from "../../public/FacultyPic/chancellor.jpg";
-// import dean from "../../public/FacultyPic/dean.JPG";
+import { PiStudentBold } from "react-icons/pi";
+import { GiTeacher } from "react-icons/gi";
 import "./Home.css";
 
 export default function Home() {
@@ -20,6 +20,113 @@ export default function Home() {
 
     return () => clearInterval(intervalId);
   }, [slideImages.length]);
+
+  const tableBodyRef = useRef(null);
+  const newsItemTitle = "Admissions Open for Academic Year 2025-26";
+  const [newsItems, setNewsItems] = useState([
+    "MPL 2025 Inter-Department Sports League Announced",
+    "Admissions Open for Academic Year 2025-26",
+    "Campus Placement Drive by TCS and Infosys – April 12",
+    "TechFest 2025 – Innovation and Coding Challenge Starts May 2",
+    "Annual Cultural Fest 'Sanskriti 2025' – Registrations Open",
+    "Mid-Semester Exams to Begin from April 22",
+  ]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const tbody = tableBodyRef.current;
+      if (tbody && !tbody.matches(":hover")) {
+        setNewsItems((prev) => {
+          const [first, ...rest] = prev;
+          return [...rest, first]; // Move first to end
+        });
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  // Student counter
+  const [studentCount, setStudentCount] = useState(0);
+  const totalStudents = 543;
+  const duration = 2000; // 5 seconds
+  const frameRate = 30; // 60 frames per second
+
+  useEffect(() => {
+    const increment = Math.ceil(totalStudents / (duration / frameRate));
+    const interval = setInterval(() => {
+      setStudentCount((prev) => {
+        if (prev + increment >= totalStudents) {
+          clearInterval(interval);
+          return totalStudents;
+        }
+        return prev + increment;
+      });
+    }, frameRate);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  // faculty counter
+  const [facultyCount, setFacultyCount] = useState(0);
+  const totalFaculty = 20;
+  const facultyDuration = 2000; // 5 seconds
+  const facultyFrameRate = 30; // 60 frames per second
+  useEffect(() => {
+    const increment = Math.ceil(
+      totalFaculty / (facultyDuration / facultyFrameRate)
+    );
+    const interval = setInterval(() => {
+      setFacultyCount((prev) => {
+        if (prev + increment >= totalFaculty) {
+          clearInterval(interval);
+          return totalFaculty;
+        }
+        return prev + increment;
+      });
+    }, facultyFrameRate);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  // M.Tech counter
+  const [mtechCount, setMtechCount] = useState(0);
+  const totalMtech = 24;
+  const mtechDuration = 2000; // 5 seconds
+  const mtechFrameRate = 30; // 60 frames per second
+  useEffect(() => {
+    const increment = Math.ceil(totalMtech / (mtechDuration / mtechFrameRate));
+    const interval = setInterval(() => {
+      setMtechCount((prev) => {
+        if (prev + increment >= totalMtech) {
+          clearInterval(interval);
+          return totalMtech;
+        }
+        return prev + increment;
+      });
+    }, mtechFrameRate);
+
+    return () => clearInterval(interval);
+  }, []);
+  // Ph.D counter
+  const [phdCount, setPhdCount] = useState(0);
+  const totalPhd = 10;
+  const phdDuration = 2000; // 5 seconds
+  const phdFrameRate = 30; // 60 frames per second
+  useEffect(() => {
+    const increment = Math.ceil(totalPhd / (phdDuration / phdFrameRate));
+    const interval = setInterval(() => {
+      setPhdCount((prev) => {
+        if (prev + increment >= totalPhd) {
+          clearInterval(interval);
+          return totalPhd;
+        }
+        return prev + increment;
+      });
+    }, phdFrameRate);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
@@ -41,9 +148,7 @@ export default function Home() {
               <a href="sideNav-HTML-Pages/placement.html">Placement</a>
             </li>
             <li>
-              <a href="/courses">
-                Course Catalouge
-              </a>
+              <a href="/courses">Course Catalouge</a>
             </li>
             <li>
               <a href="sideNav-HTML-Pages/examinationCell.html">
@@ -62,7 +167,7 @@ export default function Home() {
                 <a href="/administration">Administration</a>
               </button>
               <button>
-                <a href="/departments">Departments</a>
+                <a href="/departments/fmpe/aboutDpt">Departments</a>
               </button>
               <button>
                 <a href="/faculty">Faculty</a>
@@ -71,9 +176,7 @@ export default function Home() {
                 <a href="/placement">Placement</a>
               </button>
               <button>
-                <a href="/courses">
-                  Course Catalouge
-                </a>
+                <a href="/courses">Course Catalouge</a>
               </button>
               <button>
                 <a href="sideNav-HTML-Pages/examinationCell.html">
@@ -99,75 +202,60 @@ export default function Home() {
             <table className="w-full border-2 border-slate-400">
               <thead>
                 <tr>
-                  <th className="table-head">News & Events</th>
+                  <th className="table-head bg-slate-200 text-left p-2">
+                    News & Events
+                  </th>
                 </tr>
               </thead>
-              <tbody className="table-body">
-                <tr>
-                  <td>
-                    <a href="#">MPL 2025</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions lorem ipsum</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions lorem ipsum</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions lorem ipsum</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a href="#">Admissions</a>
-                  </td>
-                </tr>
+              <tbody
+                ref={tableBodyRef}
+                className="w-full text-left divide-y divide-gray-300"
+              >
+                {newsItems.map((item, index) => (
+                  <tr
+                    key={index}
+                    className="hover:bg-yellow-100 w-full transition"
+                  >
+                    <td className="py-2 px-4 w-full  text-blue-600 hover:underline flex font-semibold items-center gap-2">
+                      <a href="#" className="block w-full">
+                        {item}
+                      </a>
+                      {item === newsItemTitle && (
+                        <span className="bg-red-500 text-white text-[10px] px-1.5 py-0.5 rounded-full uppercase animate-pulse">
+                          New
+                        </span>
+                      )}
+                    </td>
+                  </tr>
+                ))}
               </tbody>
+
               <tfoot>
                 <tr>
-                  <th className="table-footer">View More</th>
+                  <th className="table-footer bg-slate-100 text-left p-2 cursor-pointer hover:text-blue-600">
+                    View More
+                  </th>
                 </tr>
               </tfoot>
             </table>
           </div>
           <div className="separation"></div>
         </section>
-        {/* <div className="h-96">
-          <video
-            src="/videos/collegeDroneShoot.mp4"
-            autoPlay
-            muted
-            loop
-          ></video>
-        </div> */}
 
-        <div className="w-full flex flex-col">
+        {/* College pic */}
+        <section className="w-full">
+          <div className="w-full h-72 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden">
+            <Image
+              src="/gallery/mcaet.jpg"
+              alt={`student's profile`}
+              fill
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+        </section>
+
+        {/* About College */}
+        <section className="w-full flex flex-col">
           <div className="w-full grid grid-cols-[1fr_2fr] bg-gray-100 place-items-center p-6">
             {/* Left Section (Vice Chancellor Info) */}
             <div className="w-64 flex flex-col items-center justify-center">
@@ -206,119 +294,80 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div className="w-full py-8 px-16 flex gap-4 xl:gap-0 justify-around bg-gray-50">
-          <div className="flex flex-col gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-center items-center p-2">
-            <Image
-              src={chancellor}
-              alt=""
-              className="w-32 h-32 rounded-full border-pink border-2"
-            ></Image>
-            <h3 className="font-bold text-blue-950 xl:text-base">Smt. Anandiben Patel</h3>
-            <p className="text-sm">Hon'ble Governor of Uttar Pradesh</p>
-            <div className="w-full gap-1 flex flex-row mt-2">
-              <a
-                href="https://upgovernor.gov.in/en/page/profile"
-                target="_blank"
-              >
-                <button className="bg-pink-700 text-white text-base font-bold py-1 px-10">
-                  Profile
-                </button>
-              </a>
-              <a
-                href="https://upgovernor.gov.in/en/page/profile"
-                target="_blank"
-              >
-                <button className="bg-pink-700 text-white text-base font-bold py-1 px-10">
-                  Message
-                </button>
-              </a>
+        {/* Dean Message */}
+        <section className="w-full py-8 px-16 flex flex-col gap-4 xl:gap-8 justify-around bg-gray-50">
+          <div className="flex gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-between items-center px-2">
+            <div className="flex flex-col gap-1 bg-white border-r-2 text-center justify-center items-center p-4 w-full">
+              <Image
+                src="/FacultyPic/dean.JPG"
+                width={500}
+                height={300}
+                alt=""
+                className="w-36 h-36 rounded-full border-pink border-2"
+              ></Image>
+              <h3 className="font-bold text-blue-950 text-lg">
+                Dr. N.C. Shahi
+              </h3>
+              <p className="text-sm font-semibold">Dean, MCAET</p>
+              {/* <div className="w-full gap-1 flex flex-row mt-2">
+                <a href="/faculty" target="_blank">
+                  <button className="bg-pink-700 text-white font-bold py-1 px-10">
+                    Profile
+                  </button>
+                </a>
+                <a href="/faculty" target="_blank">
+                  <button className="bg-pink-700 text-white font-bold py-1 px-10">
+                    Message
+                  </button>
+                </a>
+              </div> */}
+            </div>
+            <div className="flex flex-col">
+              <p className="text-gray-600 px-12">
+                <i>
+                  "It gives me immense pride and joy to welcome you to our
+                  esteemed institution. At our college, we are committed to
+                  nurturing innovation, integrity, and excellence in every
+                  student. With a strong emphasis on academic rigor, practical
+                  exposure, and holistic development, we aim to shape future
+                  leaders and responsible citizens. Our dedicated faculty,
+                  modern infrastructure, and vibrant campus life provide an
+                  ideal environment for learning and growth. We believe in
+                  empowering our students to not only excel in their careers but
+                  also contribute meaningfully to society. I invite you to be a
+                  part of this enriching journey and make the most of the
+                  opportunities that await you here."
+                </i>
+              </p>
             </div>
           </div>
-          <div className="flex flex-col gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-center items-center p-2">
-            <Image
-              src={vcPic}
-              alt=""
-              className="w-32 h-32 rounded-full border-pink border-2"
-            ></Image>
-            <h3 className="font-bold text-blue-950">Dr. Bijendra Singh</h3>
-            <p className="text-sm">Vice-Chancellor
-            University of ANDUAT</p>
-            <div className="w-full gap-1 flex flex-row mt-2">
-              <a
-                href="https://www.nduat.org/about-the-university.php?lid=NQ==&mid=Mg==&nid=VmljZS1DaGFuY2VsbG9y"
-                target="_blank"
-              >
-                <button className="bg-pink-700 text-white font-bold py-1 px-10">
-                  Profile
-                </button>
-              </a>
-              <a
-                href="https://www.nduat.org/about-the-university.php?lid=NQ==&mid=Mg==&nid=VmljZS1DaGFuY2VsbG9y"
-                target="_blank"
-              >
-                <button className="bg-pink-700 text-white font-bold py-1 px-10">
-                  Message
-                </button>
-              </a>
-            </div>
+        </section>
+
+        {/* Facts counts */}
+        <section className="w-full bg-gray-100 py-5 px-44 mb-10 flex justify-around">
+          <div className="flex flex-col text-center items-center">
+            <PiStudentBold className="text-6xl mb-3" />
+            <p className="font-bold text-lg">{studentCount + "+"}</p>
+            <p className="font-bold text-lg">Undergraduates</p>
           </div>
-          <div className="flex flex-col gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-center items-center p-2">
-            <Image
-              src="/FacultyPic/dean.JPG" width={500} height={300}
-              alt=""
-              className="w-32 h-32 rounded-full border-pink border-2"
-            ></Image>
-            <h3 className="font-bold text-blue-950">Dr. N.C. Shahi</h3>
-            <p className="text-sm">Dean, MCAET</p>
-            <div className="w-full gap-1 flex flex-row mt-2">
-              <a
-                href="/faculty"
-                target="_blank"
-              >
-                <button className="bg-pink-700 text-white font-bold py-1 px-10">
-                  Profile
-                </button>
-              </a>
-              <a
-                href="/faculty"
-                target="_blank"
-              >
-                <button className="bg-pink-700 text-white font-bold py-1 px-10">
-                  Message
-                </button>
-              </a>
-            </div>
+          <div className="flex flex-col text-center items-center">
+            <PiStudentBold className="text-6xl mb-3" />
+            <p className="font-bold text-lg">{mtechCount + "+"}</p>
+            <p className="font-bold text-lg">M.Tech Students</p>
           </div>
-          <div className="flex flex-col gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-center items-center p-2">
-            <Image
-              src="/FacultyPic/vks.JPG" width={500} height={300}
-              alt=""
-              className="w-32 h-32 rounded-full border-pink border-2"
-            ></Image>
-            <h3 className="font-bold text-blue-950">Dr. V.K. Singh</h3>
-            <p className="text-sm">ADSW, MCAET</p>
-            <div className="w-full gap-1 flex flex-row mt-2">
-              <a
-                href="/faculty"
-                target="_blank"
-              >
-                <button className="bg-pink-700 text-white font-bold py-1 px-10">
-                  Profile
-                </button>
-              </a>
-              <a
-                href="/faculty"
-                target="_blank"
-              >
-                <button className="bg-pink-700 text-white font-bold py-1 px-10">
-                  Message
-                </button>
-              </a>
-            </div>
+          <div className="flex flex-col text-center items-center">
+            <PiStudentBold className="text-6xl mb-3" />
+            <p className="font-bold text-lg">{phdCount + "+"}</p>
+            <p className="font-bold text-lg">Ph.D. Students</p>
           </div>
-        </div>
+          <div className="flex flex-col text-center items-center">
+            <GiTeacher className="text-6xl mb-3" />
+            <p className="font-bold text-lg">{facultyCount + "+"}</p>
+            <p className="font-bold text-lg">Faculty</p>
+          </div>
+        </section>
 
         <section className="govCarousel">
           <div className="govSlider">

@@ -2,13 +2,13 @@
 
 import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
-import FmpeLeftNav from "@/components/FmpeLeftNav/LeftNav";
+import PfeLeftNav from "@/components/PfeLeftNav/LeftNav";
 import Image from "next/image";
 
 export default function page() {
   return (
     <div className="w-full items-start grid grid-cols-[25%_50%_25%] place-items-center bg-white box-border">
-      <div className="">
+      <div className=" h-full">
         <RightNav />
       </div>
       <div className="w-full px-6 py-10 flex flex-col gap-7 justify-center">
@@ -201,8 +201,8 @@ export default function page() {
           </table>
         </div>
       </div>
-      <div className="w-full">
-        <FmpeLeftNav />
+      <div className="w-full h-full">
+        <PfeLeftNav />
       </div>
     </div>
   );

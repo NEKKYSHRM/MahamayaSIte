@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function page() {
   return (
     <div className="w-full items-start grid grid-cols-[25%_50%_25%] place-items-center bg-white box-border">
-      <div className="">
+      <div className=" h-full">
         <RightNav />
       </div>
       <div className="w-full px-6 py-10 flex flex-col gap-7 justify-center">
@@ -28,7 +28,7 @@ export default function page() {
           </p>
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full h-full">
         <FmpeLeftNav />
       </div>
     </div>

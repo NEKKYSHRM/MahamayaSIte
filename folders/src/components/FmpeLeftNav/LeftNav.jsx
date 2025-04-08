@@ -10,7 +10,7 @@ export default function LeftNav() {
   const pathname = usePathname();
 
   return (
-    <div className="w-full border-2 border-dotted border-slate-300 text-black p-2">
+    <div className="w-full h-full border-l-2 border-dotted border-slate-300 text-black p-2">
       <ul className="py-3">
         <li
           onClick={() => router.push("/departments/fmpe/aboutDpt")}
