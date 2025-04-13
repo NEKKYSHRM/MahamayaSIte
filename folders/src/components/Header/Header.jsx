@@ -49,11 +49,11 @@ export default function Header() {
             <div className="flex flex-col text-white font-extrabold items-center font-serif">
               <p className="text-[5px] xl:text-lg">
                 महामाया कृषि अभियांत्रिकी एवं प्रौद्योगिकी महाविद्यालय, अकबरपुर,
-                आंबेडकर नगर
+                अम्बेडकर नगर
               </p>
               <p className="text-[5px] xl:text-lg">
                 Mahamaya College of Agricultural Engineering & Technology,
-                Akabarpur, Ambedkar Nagar
+                Akbarpur, Ambedkar Nagar
               </p>
               <p className="text-[5px] xl:text-lg">
                 आचार्य नरेंद्र देव कृषि एवं प्रौद्योगिकी विश्वविद्यालय,
@@ -61,7 +61,7 @@ export default function Header() {
               </p>
               <p className="text-[5px] xl:text-lg">
                 Acharya Narendra Deva University of Agriculture & Technology,
-                kumarganj, Ayodhya
+                Kumarganj, Ayodhya
               </p>
             </div>
           </div>

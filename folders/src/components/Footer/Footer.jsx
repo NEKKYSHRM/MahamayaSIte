@@ -45,64 +45,64 @@ export default function Footer() {
           <hr style={{ order: 2 }} />
           <div className="footer-lists">
             <ul>
-              <li>
+              <li className="hover:underline">
                 <Link href="/administration">Administration</Link>
               </li>
-              <li>
-                <Link href="/departments">Departments</Link>
+              <li className="hover:underline">
+                <Link href="/departments/fmpe/aboutDpt">Departments</Link>
               </li>
-              <li>
-                <Link href="#">In Media</Link>
+              <li className="hover:underline">
+                <Link href="/media">In Media</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="#">Research Journals</Link>
               </li>
             </ul>
           </div>
           <div className="footer-lists">
             <ul>
-              <li>
+              <li className="hover:underline">
                 <Link href="https://www.nduat.org/" target="_blank">AMS ANDUAT</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="#">Internal Complaints</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="#">Recruitment</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="#">Academic Links</Link>
               </li>
             </ul>
           </div>
           <div className="footer-lists">
             <ul>
-              <li>
-                <Link href="#">Hostels</Link>
+              <li className="hover:underline">
+                <Link href="/hostels">Hostels</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="#">Anti Ragging</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="https://nduat.org/pdf/Academic%20Calendar%202024-25%20II%20Sem.pdf" target="_blank">Academic Calendar</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="#">Sitemap</Link>
               </li>
             </ul>
           </div>
           <div className="footer-lists">
             <ul>
-              <li>
+              <li className="hover:underline">
                 <Link href="#">Privacy - Policy</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="#">Terms & Conditions</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="/aboutus">About Us</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link href="#">Contact Us</Link>
               </li>
             </ul>
@@ -112,9 +112,8 @@ export default function Footer() {
           <p>
             Copyrights &copy; 2024 MCAET. All rights reserved. | Designed and
             developed by
-            <span style={{ fontWeight: "bold" }}>
-              <Link href="#" style={{ textDecoration: "none", color: "white" }}>
-                {/* SoftSculpt Innovations */}
+            <span style={{ fontWeight: "bold" }} className="hover:underline hover:text-blue-300">
+              <Link href="https://www.linkedin.com/in/nikhil-kumar-sharma-6611031a9/" className="text-white hover:underline hover:text-blue-300" target="blank">
                 Nikhil Kumar Sharma
               </Link>
             </span>

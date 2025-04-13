@@ -25,7 +25,10 @@ export default function RightNav() {
           >
             Processing & Food Engineering
           </li>
-          <li className="py-2 hover:underline hover:bg-green-300">
+          <li
+            onClick={() => router.push("/departments/pfe/aboutDpt")}
+            className="py-2 hover:underline hover:bg-green-300"
+          >
             <Link href="">Soil Water & Conservation Engineering</Link>
           </li>
           <li className="py-2 hover:underline hover:bg-green-300">
@@ -34,7 +37,10 @@ export default function RightNav() {
           <li className="py-2 hover:underline hover:bg-green-300">
             <Link href="">Renewable Energy Engineering</Link>
           </li>
-          <li className="py-2 hover:underline hover:bg-green-300">
+          <li
+            onClick={() => router.push("/departments/cse/aboutDpt")}
+            className="py-2 hover:underline hover:bg-green-300"
+          >
             <Link href="">Computer Science & Engineering</Link>
           </li>
           <li className="py-2 hover:underline hover:bg-green-300">

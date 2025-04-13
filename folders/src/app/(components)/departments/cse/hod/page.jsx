@@ -1,57 +1,23 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
-import Image from "next/image";
-import Link from "next/link";
-import {axios} from "axios";
-
 import React from "react";
+import RightNav from "@/components/RightNav/RightNav";
+import CseLeftNav from "@/components/cseLeftNav/LeftNav";
+import Image from "next/image";
 
 export default function page() {
-  const { id } = useParams();
-  const [faculty, setFaculty] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchFaculty = async () => {
-      try {
-        const res = await fetch("/Data/faculty.json");
-        const data = await res.json();
-        const foundFaculty = data.find((f) => f.id === id);
-        setFaculty(foundFaculty);
-      } catch (err) {
-        console.error("Failed to fetch faculty data:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchFaculty();
-  }, [id]);
-
-  if (loading) return <div className="p-10 text-center">Loading...</div>;
-
-  if (!faculty) {
-    return (
-      <div className="p-10 text-center text-red-500">
-        Faculty not found.{" "}
-        <Link href="/faculty" className="text-blue-600 underline">
-          Go back
-        </Link>
-      </div>
-    );
-  }
-
   return (
-    <div className="flex flex-col items-center justify-center py-8 px-32 bg-gray-50">
+    <div className="w-full items-start grid grid-cols-[25%_50%_25%] place-items-center bg-white box-border">
+      <div className=" h-full">
+        <RightNav />
+      </div>
       <div className="w-full px-6 py-10 flex flex-col gap-7 justify-center">
-        <div className="w-full bg-white shadow-slate-400 shadow-lg border-black border-2    ">
+        <div className="w-full">
           <table className="w-full border-2 border-black table-auto">
-            <thead className="bg-yellow-300">
+            <thead>
               <tr>
                 <th colSpan={2} className="text-center">
-                  Faculty Information
+                  Head of Department
                 </th>
               </tr>
             </thead>
@@ -60,7 +26,7 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
-                      src={faculty.image}
+                      src="/FacultyPic/bky.JPG"
                       alt={`student's profile`}
                       fill
                       style={{ objectFit: "cover" }}
@@ -75,7 +41,7 @@ export default function page() {
                           Name
                         </td>
                         <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : {faculty.fullName}
+                          : Dr. Brijesh Kumar Yaduvanshi
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -83,7 +49,7 @@ export default function page() {
                           Designation
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : {faculty.designation}
+                          : Associate Professor
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -91,7 +57,7 @@ export default function page() {
                           Specialization
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : {faculty.specialization}
+                          : Farm Machinery & Power Engineering
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -99,7 +65,7 @@ export default function page() {
                           Phone
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : +91 {faculty.phone}
+                          : +91 9558819753
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -107,7 +73,7 @@ export default function page() {
                           Email
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : {faculty.email}
+                          : birjesh123@gmail.com
                         </td>
                       </tr>
                     </tbody>
@@ -117,7 +83,7 @@ export default function page() {
             </tbody>
           </table>
         </div>
-        <div className="w-full bg-white shadow-slate-400 shadow-lg border-black border-2    ">
+        <div className="w-full">
           <table className="w-full border-2 border-black table-auto">
             <thead className="border-2 border-black">
               <tr>
@@ -128,24 +94,18 @@ export default function page() {
             </thead>
             <tbody>
               <tr className="">
-                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">
-                  {faculty.bio1}
-                </td>
+                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">Dr. Birjesh Kumar Yaduvanshi is a seasoned academic and researcher, currently serving as an Associate Professor in the field of Farm Machinery and Power Engineering. With a Ph.D. and an impressive teaching and research career spanning over 17 years, Dr. Yaduvanshi has significantly contributed to agricultural engineering education and innovation. He has authored 27 research papers, including 20 in reputed international journals and 4 national journal publications, along with 2 book chapters, showcasing his deep expertise in the domain. His technical repertoire includes 5 instructional manuals and 1 technical bulletin, demonstrating his dedication to practical and impactful engineering solutions. He also holds 4 patents, highlighting his innovative approach in the field.</td>
               </tr>
               <tr className="">
-                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">
-                  {faculty.bio2}
-                </td>
+                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">Dr. Yaduvanshi has actively participated in 5 training programs and 11 seminars, staying updated with advancements in the agricultural and mechanical engineering fields. He has mentored 4 students across B.Tech, M.Tech, and Ph.D. levels and is currently guiding 2 students, nurturing the next generation of agricultural engineers. His project portfolio includes 8 successfully accomplished projects, with ongoing interest in future research endeavors. Dr. Yaduvanshi continues to inspire through his commitment to academic excellence, innovation, and the development of mechanized solutions for sustainable agriculture.</td>
               </tr>
-              
             </tbody>
           </table>
         </div>
       </div>
-
-      <Link href="/faculty" className="mt-6 text-blue-600 hover:underline">
-        ← Back to Faculty List
-      </Link>
+      <div className="w-full h-full">
+        <CseLeftNav />
+      </div>
     </div>
   );
 }
