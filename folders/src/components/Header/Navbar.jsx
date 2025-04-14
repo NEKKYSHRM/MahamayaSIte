@@ -41,22 +41,12 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
-                      Syllabus
-                    </Link>
-                  </li>
-                  <li>
                     <Link
                       href="https://drive.google.com/file/d/1JBr5sJSfA9A5mGsR3INPIo4d89ZO1_sC/view"
                       target="_blank"
                       className="Navbar-Link"
                     >
                       Fees
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Queries
                     </Link>
                   </li>
                 </ul>
@@ -81,16 +71,6 @@ export default function Navbar() {
                       Academic Calender
                     </Link>
                   </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      List of Holidays
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Academic Result
-                    </Link>
-                  </li>
                 </ul>
               </div>
             </li>
@@ -100,7 +80,10 @@ export default function Navbar() {
               <div className="sub-menu w-96">
                 <ul>
                   <li>
-                    <Link href="/departments/fmpe/aboutDpt" className="Navbar-Link">
+                    <Link
+                      href="/departments/fmpe/aboutDpt"
+                      className="Navbar-Link"
+                    >
                       Department of Farm Machinery & Power Engineering
                     </Link>
                   </li>
@@ -156,37 +139,9 @@ export default function Navbar() {
               </div>
             </li>
             <li>
-              Alumni
-              <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu w-56">
-                <ul>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Institute Alumni Interaction Cell
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Alumni Association MCAET
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Alumni Registration portal
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Alumni giving back portal
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+              <Link href="#" className="Navbar-Link">
+                Alumni
+              </Link>
             </li>
             <li>
               <Link href="/media" className="Navbar-Link">

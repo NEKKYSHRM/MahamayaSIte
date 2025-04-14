@@ -109,12 +109,7 @@
 }
 
 .table-head {
-  text-align: center;
-  vertical-align: middle;
-  padding: 5px 0;
-  color: white;
   background-color: green;
-  font-size: 1vw;
 }
 
 .table-body {
@@ -135,14 +130,6 @@
   text-decoration: none;
 }
 
-.table-footer {
-  font-size: 1vw;
-  text-align: center;
-  vertical-align: middle;
-  padding: 5px 0;
-  color: white;
-  background-color: grey;
-}
 
 /* Gov Slider */
 
@@ -228,30 +215,9 @@
     display: none;
   }
 
-  .hero-right {
-    margin-top: 2vw;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
   .events {
     width: 40vw;
   }
 
-  .table-head {
-    font-size: 2vw;
-  }
 
-  .table-body {
-    max-height: 30px;
-  }
-
-  .table-body td {
-    font-size: 2vw;
-    margin: 3px;
-  }
-
-  .table-footer {
-    font-size: 2vw;
-  }
 }

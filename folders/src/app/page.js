@@ -199,12 +199,11 @@ export default function Home() {
               />
             </div>
           </div>
-
-          <div className="flex w-full px-5">
+          <div className="flex w-full px-5 mt-3 md:mt-0">
             <table className="w-full border-2 border-slate-400">
               <thead>
                 <tr>
-                  <th className="table-head bg-slate-200 text-left p-2">
+                  <th className="text-white table-head text-center text-base xl:text-base xl:p-2">
                     News & Events
                   </th>
                 </tr>
@@ -218,7 +217,7 @@ export default function Home() {
                     key={index}
                     className="hover:bg-yellow-100 w-full transition"
                   >
-                    <td className="py-2 px-4 w-full  text-blue-600 hover:underline flex font-semibold items-center gap-2">
+                    <td className="px-2 py-0 md:py-2 md:px-4 w-full  text-blue-600 hover:underline flex font-semibold items-center gap-2">
                       <a href="#" className="block w-full">
                         {item}
                       </a>
@@ -231,10 +230,9 @@ export default function Home() {
                   </tr>
                 ))}
               </tbody>
-
               <tfoot>
                 <tr>
-                  <th className="table-footer bg-slate-100 text-left p-2 cursor-pointer hover:text-blue-600">
+                  <th className="text-center bg-slate-300 text-black p-2 cursor-pointer hover:text-blue-600">
                     View More
                   </th>
                 </tr>
@@ -246,10 +244,10 @@ export default function Home() {
 
         {/* College pic */}
         <section className="w-full">
-          <div className="w-full h-72 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden">
+          <div className="w-full h-36 md:h-72 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden">
             <Image
               src="/gallery/mcaet.jpg"
-              alt={`student's profile`}
+              alt={`College Pic`}
               fill
               style={{ objectFit: "cover" }}
             />
@@ -258,11 +256,11 @@ export default function Home() {
 
         {/* About College */}
         <section className="w-full flex flex-col">
-          <div className="w-full grid grid-cols-[1fr_2fr] bg-gray-100 place-items-center p-6">
+          <div className="w-full grid grid-cols-[1fr_2fr] md:gap-0 gap-3 bg-gray-100 place-items-center p-6">
             {/* Left Section (Vice Chancellor Info) */}
-            <div className="w-64 flex flex-col items-center justify-center">
+            <div className="w-28 md:w-64 flex flex-col items-center justify-center">
               <Image src={vcPic} alt="vc pic" />
-              <div className="flex flex-col justify-center items-center text-center font-bold mt-3">
+              <div className="flex flex-col justify-center items-center text-center font-bold mt-3 text-[10px] md:text-base">
                 <p>Dr. Bijendra Singh</p>
                 <p>Hon'able Vice Chancellor</p>
                 <p>ANDUAT, Ayodhya</p>
@@ -270,13 +268,13 @@ export default function Home() {
             </div>
 
             {/* Right Section (About the College) */}
-            <div className="max-w-3xl flex flex-col justify-center items-center text-center">
+            <div className="md:max-w-3xl flex flex-col justify-center items-center text-center">
               <div className="w-full bg-white py-0.5 rounded-xl"></div>
-              <h1 className="font-bold text-4xl text-blue-800 m-3">
+              <h1 className="font-bold md:text-4xl text-blue-800 md:m-3">
                 About The College
               </h1>
               <div className="w-full bg-white py-0.5 rounded-xl"></div>
-              <p className="mt-4 text-lg text-justify text-gray-700 leading-relaxed">
+              <p className="mt-4 text-[7px] md:text-lg text-justify text-gray-700 leading-relaxed">
                 Mahamaya College of Agricultural Engineering and Technology
                 (MCAET), Ambedkar Nagar Uttar Pradesh, India-224122 is a
                 Government Engineering College under the administration of
@@ -299,35 +297,23 @@ export default function Home() {
         </section>
 
         {/* Dean Message */}
-        <section className="w-full py-8 px-16 flex flex-col gap-4 xl:gap-8 justify-around bg-gray-50">
-          <div className="flex gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-between items-center px-2">
-            <div className="flex flex-col gap-1 bg-white border-r-2 text-center justify-center items-center p-4 w-full">
+        <section className="w-full py-8 px-4 md:px-16 flex flex-col gap-4 xl:gap-8 justify-around bg-gray-50">
+          <div className="flex gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-between items-center md:px-2">
+            <div className="flex flex-col md:gap-1 bg-white border-r-2 text-center justify-center items-center p-2 md:p-4 w-full">
               <Image
                 src="/FacultyPic/dean.JPG"
                 width={500}
                 height={300}
                 alt=""
-                className="w-36 h-36 rounded-full border-pink border-2"
+                className="w-18 h-18 md:w-36 md:h-36 rounded-full border-pink border-2"
               ></Image>
-              <h3 className="font-bold text-blue-950 text-lg">
+              <h3 className="font-bold text-blue-950 text-[8px] md:text-lg">
                 Dr. N.C. Shahi
               </h3>
-              <p className="text-sm font-semibold">Dean, MCAET</p>
-              {/* <div className="w-full gap-1 flex flex-row mt-2">
-                <a href="/faculty" target="_blank">
-                  <button className="bg-pink-700 text-white font-bold py-1 px-10">
-                    Profile
-                  </button>
-                </a>
-                <a href="/faculty" target="_blank">
-                  <button className="bg-pink-700 text-white font-bold py-1 px-10">
-                    Message
-                  </button>
-                </a>
-              </div> */}
+              <p className="md:text-sm text-[7px] font-semibold">Dean, MCAET</p>
             </div>
             <div className="flex flex-col">
-              <p className="text-gray-600 px-12">
+              <p className="text-gray-600 px-4 md:px-12 text-[7px] md:text-base">
                 <i>
                   "It gives me immense pride and joy to welcome you to our
                   esteemed institution. At our college, we are committed to
@@ -348,26 +334,26 @@ export default function Home() {
         </section>
 
         {/* Facts counts */}
-        <section className="w-full bg-gray-100 py-5 px-44 mb-10 flex justify-around">
+        <section className="w-full bg-gray-100 py-5 px-4 md:px-44 mb-10 flex justify-around">
           <div className="flex flex-col text-center items-center">
-            <PiStudentBold className="text-6xl mb-3" />
-            <p className="font-bold text-lg">{studentCount + "+"}</p>
-            <p className="font-bold text-lg">Undergraduates</p>
+            <PiStudentBold className="text-3xl md:text-6xl mb-1 md:mb-3" />
+            <p className="font-bold text-sm md:text-lg">{studentCount + "+"}</p>
+            <p className="font-bold text-xs md:text-lg">Undergraduates</p>
           </div>
           <div className="flex flex-col text-center items-center">
-            <PiStudentBold className="text-6xl mb-3" />
-            <p className="font-bold text-lg">{mtechCount + "+"}</p>
-            <p className="font-bold text-lg">M.Tech Students</p>
+            <PiStudentBold className="text-3xl md:text-6xl mb-1 md:mb-3" />
+            <p className="font-bold text-sm md:text-lg">{mtechCount + "+"}</p>
+            <p className="font-bold text-xs md:text-lg">M.Tech Students</p>
           </div>
           <div className="flex flex-col text-center items-center">
-            <PiStudentBold className="text-6xl mb-3" />
-            <p className="font-bold text-lg">{phdCount + "+"}</p>
-            <p className="font-bold text-lg">Ph.D. Students</p>
+            <PiStudentBold className="text-3xl md:text-6xl mb-1 md:mb-3" />
+            <p className="font-bold text-sm md:text-lg">{phdCount + "+"}</p>
+            <p className="font-bold text-xs md:text-lg">Ph.D. Students</p>
           </div>
           <div className="flex flex-col text-center items-center">
-            <GiTeacher className="text-6xl mb-3" />
-            <p className="font-bold text-lg">{facultyCount + "+"}</p>
-            <p className="font-bold text-lg">Faculty</p>
+            <GiTeacher className="text-3xl md:text-6xl mb-1 md:mb-3" />
+            <p className="font-bold text-sm md:text-lg">{facultyCount + "+"}</p>
+            <p className="font-bold text-xs md:text-lg">Faculty</p>
           </div>
         </section>
 
