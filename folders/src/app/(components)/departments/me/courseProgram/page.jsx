@@ -2,7 +2,7 @@
 
 import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
-import CseLeftNav from "@/components/cseLeftNav/LeftNav";
+import MeLeftNav from "@/components/meLeftNav/LeftNav";
 import Image from "next/image";
 
 export default function page() {
@@ -18,7 +18,7 @@ export default function page() {
           </h1>
           <div className="w-28 h-0.5 mt-1 bg-black"></div>
           <p className="text-gray-700 font-bold mt-3 text-center font-serif text-sm">
-            B. Tech. (Computer Science & Engineering)
+            B. Tech. (Mechanical Engineering)
           </p>
           <h1 className="text-black font-bold mt-8 text-center font-serif text-xl">
             List of Courses
@@ -270,7 +270,7 @@ export default function page() {
         </div>
       </div>
       <div className="w-full h-full">
-        <CseLeftNav />
+        <MeLeftNav />
       </div>
     </div>
   );

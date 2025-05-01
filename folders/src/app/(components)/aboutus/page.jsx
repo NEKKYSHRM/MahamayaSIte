@@ -6,44 +6,20 @@ function page() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center px-4 py-8">
       <div className="max-w-4xl w-full bg-white rounded-lg shadow-lg p-8">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">About Us</h1>
-        <p className="text-gray-600 mb-6 leading-relaxed">
-          Welcome to <span className="font-semibold">Our Company</span>! We are
-          dedicated to providing the best services and solutions tailored to
-          your needs. Our journey began with a simple mission: to make life
-          easier and better for our customers.
+        <h1 className="text-3xl font-bold text-gray-800 mb-4">About The College</h1>
+        <p className="text-gray-600 mb-3 leading-relaxed">
+        The Mahamaya College of Agricultural Engineering & Technology, a constituent of Narendra Deva University of Agriculture and Technology, was established in the academic session 2003–04 with the introduction of the B.Tech in Agricultural Engineering program at the main campus in Kumarganj, Ayodhya. In 2005, the college was relocated to Ambedkar Nagar and renamed to its current title. Over the years, the institution expanded its academic offerings by introducing B.Tech programs in Computer Science & Engineering and Mechanical Engineering during the 2008–09 session.
         </p>
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          Our Mission
-        </h2>
-        <p className="text-gray-600 mb-6 leading-relaxed">
-          At our core, we aim to deliver excellence in every project we
-          undertake. We believe in fostering a community of innovation,
-          creativity, and collaboration. Our mission is to inspire and empower
-          individuals and businesses alike through our cutting-edge solutions.
+        <p className="text-gray-600 mb-3 leading-relaxed">
+        Postgraduate education began with the launch of M.Tech in Agricultural Engineering in 2011–12, starting with two departments: Soil and Water Conservation Engineering (SWCE) and Irrigation and Drainage Engineering (IDE). Later, programs in Farm Machinery and Power Engineering (FMPE) and Process and Food Engineering (PFE) were added in 2021–22, followed by Renewable Energy Engineering (REE) in 2023–24. The college further advanced its academic scope by initiating Ph.D. programs in 2023–24 in four key departments: FMPE, SWCE, IDE, and PFE.
         </p>
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          What We Do
-        </h2>
-        <p className="text-gray-600 mb-6 leading-relaxed">
-          We specialize in a wide range of services, including:
+        <p className="text-gray-600 mb-3 leading-relaxed">
+        The college plays a vital role in teaching, research, and extension in the field of Agricultural Engineering. Its vision is to produce skilled and ethically driven professionals who contribute to global food security and sustainable agricultural growth. The institution emphasizes hands-on learning in areas such as farm machinery, water management, process and food engineering, and computer science, ensuring students are well-equipped to address the challenges of modern agriculture.
         </p>
-        <ul className="list-disc list-inside mb-6 text-gray-600">
-          <li>Custom software development</li>
-          <li>Web and mobile application design</li>
-          <li>Digital marketing and branding</li>
-          <li>IT consulting and support</li>
-        </ul>
-        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-          Why Choose Us
-        </h2>
-        <p className="text-gray-600 leading-relaxed">
-          Our team is passionate, experienced, and driven to exceed your
-          expectations. We value transparency, integrity, and customer
-          satisfaction above all else. Choosing us means partnering with a
-          company that truly cares about your success.
+        <p className="text-gray-600 mb-3 leading-relaxed">
+        It also focuses on research and technology development, aiming to create region-specific innovations that benefit farmers and agro-based industries. The college trains students to become effective extension personnel, capable of transferring practical knowledge and technologies to the farming community. Additionally, the college actively collaborates with national and international organizations involved in agricultural engineering to stay at the forefront of advancements in the discipline.
         </p>
-
+        
         <div className="mt-8 w-full flex justify-center">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d973.7932121768564!2d82.49303210412259!3d26.459274824971523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399093cbf6ffffff%3A0xe886e928b8f0a1e7!2sMahamaya%20College%20of%20Agricultural%20Engineering%20And%20Technology!5e0!3m2!1sen!2sin!4v1744024465195!5m2!1sen!2sin"

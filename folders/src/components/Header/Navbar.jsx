@@ -49,19 +49,6 @@ export default function Navbar() {
                       Fees
                     </Link>
                   </li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              Academics
-              <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu w-48">
-                <ul>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      Courses
-                    </Link>
-                  </li>
                   <li>
                     <Link
                       href="https://nduat.org/pdf/Academic%20Calendar%202024-25%20II%20Sem.pdf"
@@ -69,6 +56,24 @@ export default function Navbar() {
                       className="Navbar-Link"
                     >
                       Academic Calender
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              Administrations
+              <img src="/down-arrow.png" alt="Arrow-Down" />
+              <div className="sub-menu w-48">
+                <ul>
+                  <li>
+                    <Link href="/administration" className="Navbar-Link">
+                      Administration
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/faculty" className="Navbar-Link">
+                      Faculty
                     </Link>
                   </li>
                 </ul>
@@ -88,32 +93,50 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link
+                      href="/departments/pfe/aboutDpt"
+                      className="Navbar-Link"
+                    >
                       Department of Processing & Food Engineering
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link
+                      href="/departments/swce/aboutDpt"
+                      className="Navbar-Link"
+                    >
                       Department of Soil Water & Conservation Engineering
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link
+                      href="/departments/ide/aboutDpt"
+                      className="Navbar-Link"
+                    >
                       Department of Irrigation & Drainage Engineering
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link
+                      href="/departments/ree/aboutDpt"
+                      className="Navbar-Link"
+                    >
                       Department of Renewable Energy Engineering
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link
+                      href="/departments/cse/aboutDpt"
+                      className="Navbar-Link"
+                    >
                       Department of Computer Science & Engineering
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="Navbar-Link">
+                    <Link
+                      href="/departments/me/aboutDpt"
+                      className="Navbar-Link"
+                    >
                       Department of Basic Engineering & Applied Sciences
                     </Link>
                   </li>
@@ -121,31 +144,18 @@ export default function Navbar() {
               </div>
             </li>
             <li>
-              Researches
-              <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu w-48">
-                <ul>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      M.tech Researchers
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="Navbar-Link">
-                      P.hd Researchers
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+                <Link href="#" className="Navbar-Link">
+                  PG/Ph.D. Students
+                </Link>
             </li>
             <li>
-              <Link href="#" className="Navbar-Link">
-                Alumni
+              <Link href="/placement" className="Navbar-Link">
+                Placement
               </Link>
             </li>
             <li>
               <Link href="/media" className="Navbar-Link">
-                Media
+                Gallery
               </Link>
             </li>
           </ul>

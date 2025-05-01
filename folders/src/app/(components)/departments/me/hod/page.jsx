@@ -2,7 +2,7 @@
 
 import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
-import CseLeftNav from "@/components/cseLeftNav/LeftNav";
+import MeLeftNav from "@/components/meLeftNav/LeftNav";
 import Image from "next/image";
 
 export default function page() {
@@ -104,7 +104,7 @@ export default function page() {
         </div>
       </div>
       <div className="w-full h-full">
-        <CseLeftNav />
+        <MeLeftNav />
       </div>
     </div>
   );

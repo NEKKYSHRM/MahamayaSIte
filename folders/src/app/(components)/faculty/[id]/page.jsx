@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import {axios} from "axios";
+import { axios } from "axios";
 
 import React from "react";
 
@@ -46,7 +46,7 @@ export default function page() {
   return (
     <div className="flex flex-col items-center justify-center py-8 px-32 bg-gray-50">
       <div className="w-full px-6 py-10 flex flex-col gap-7 justify-center">
-        <div className="w-full bg-white shadow-slate-400 shadow-lg border-black border-2    ">
+        <div className="w-full bg-white shadow-slate-400 shadow-lg border-black border-2">
           <table className="w-full border-2 border-black table-auto">
             <thead className="bg-yellow-300">
               <tr>
@@ -117,7 +117,7 @@ export default function page() {
             </tbody>
           </table>
         </div>
-        <div className="w-full bg-white shadow-slate-400 shadow-lg border-black border-2    ">
+        <div className="w-full bg-white shadow-slate-400 shadow-lg border-black border-2">
           <table className="w-full border-2 border-black table-auto">
             <thead className="border-2 border-black">
               <tr>
@@ -137,9 +137,16 @@ export default function page() {
                   {faculty.bio2}
                 </td>
               </tr>
-              
             </tbody>
           </table>
+        </div>
+        <div className="w-full bg-white shadow-slate-400 shadow-lg border-black border-2">
+          <iframe
+            src={faculty.cv}
+            width="100%"
+            height="600px"
+            allow="autoplay"
+          ></iframe>
         </div>
       </div>
 

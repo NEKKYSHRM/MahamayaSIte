@@ -17,9 +17,9 @@ export default function page() {
             Course Program
           </h1>
           <div className="w-28 h-0.5 mt-1 bg-black"></div>
-          <p className="text-gray-700 font-bold mt-3 text-center font-serif text-sm">B. Tech. (Farm Machinery and Power Engineering)</p>
-          <p className="text-gray-700 font-bold mt-3 text-center font-serif text-sm">M. Tech. (Farm Machinery and Power Engineering)</p>
-          <p className="text-gray-700 font-bold mt-3 text-center font-serif text-sm">Ph.D. (Farm Machinery and Power Engineering)</p>
+          <p className="text-gray-700 font-bold mt-3 text-center font-serif text-sm">B. Tech. (Processing & Food Engineering)</p>
+          <p className="text-gray-700 font-bold mt-3 text-center font-serif text-sm">M. Tech. (Processing & Food Engineering)</p>
+          <p className="text-gray-700 font-bold mt-3 text-center font-serif text-sm">Ph.D. (Processing & Food Engineering)</p>
           <h1 className="text-black font-bold mt-8 text-center font-serif text-xl">
             List of Courses
           </h1>

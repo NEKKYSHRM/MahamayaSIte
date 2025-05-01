@@ -2,7 +2,7 @@
 
 import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
-import CseLeftNav from "@/components/cseLeftNav/LeftNav";
+import MeLeftNav from "@/components/meLeftNav/LeftNav";
 import Image from "next/image";
 
 export default function page() {
@@ -26,7 +26,7 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
-                      src="/FacultyPic/lalit.jpeg"
+                      src="/FacultyPic/sushil.jpeg"
                       alt={`student's profile`}
                       fill
                       style={{ objectFit: "cover" }}
@@ -41,65 +41,7 @@ export default function page() {
                           Name
                         </td>
                         <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : Er. Lalit Kumar
-                        </td>
-                      </tr>
-                      <tr className="h-12">
-                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
-                          Designation
-                        </td>
-                        <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : Assistant Professor
-                        </td>
-                      </tr>
-                      <tr className="h-12">
-                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
-                          Specialization
-                        </td>
-                        <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : Computer Science & Engineering
-                        </td>
-                      </tr>
-                      <tr className="h-12">
-                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
-                          Phone
-                        </td>
-                        <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : +91 9598168704
-                        </td>
-                      </tr>
-                      <tr className="h-12">
-                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
-                          Email
-                        </td>
-                        <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : lalitkmr170@gmail.com
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-              <tr>
-                <td className="border border-black p-4 w-1/3 text-center">
-                  <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
-                    <Image
-                      src="/FacultyPic/ashish.png"
-                      alt={`student's profile`}
-                      fill
-                      style={{ objectFit: "cover" }}
-                    />
-                  </div>
-                </td>
-                <td className="border border-black w-2/3">
-                  <table className="w-full">
-                    <tbody className="">
-                      <tr className="h-12">
-                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
-                          Name
-                        </td>
-                        <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : Er. Ashish Gupta
+                          : Dr. Sushil Kumar Choudhary 
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -115,7 +57,7 @@ export default function page() {
                           Specialization
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : Computer Science & Engineering
+                          : Mechanical Engineering
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -123,7 +65,7 @@ export default function page() {
                           Phone
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : +91 8299382129
+                          : +91 8081879262
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -131,7 +73,7 @@ export default function page() {
                           Email
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : ashish.ipec88@gmail.com
+                          : sushilphd83@gmail.com
                         </td>
                       </tr>
                     </tbody>
@@ -143,7 +85,7 @@ export default function page() {
         </div>
       </div>
       <div className="w-full h-full">
-        <CseLeftNav />
+        <MeLeftNav />
       </div>
     </div>
   );

@@ -30,6 +30,7 @@
     "phone": "9675782120",
     "email": "ncshahi2025@gmail.com",
     "image": "/FacultyPic/dean.JPG",
+    "cv": "https://drive.google.com/file/d/1b_xbytWExvPXS9YhhrnvwcbT4hw3wtSZ/preview",
     "bio1": "Dr. N.C. Shahi, born on 11th September 1973, is a distinguished academician, researcher, and administrator with over 27 years of experience spanning teaching, research, and industry. Currently serving as the Head of the Department of Post-Harvest Process and Food Engineering (PHP&FE), College of Technology, GBPUAT, Pantnagar, he has previously held key positions including Professor and Associate Professor at the same department, and Assistant Professor at SKUAST-K, Srinagar. With a Ph.D. in Process and Food Engineering (2014) and an M.Tech in Agricultural Engineering (1997), his research focuses on agriculture mechanization, post-harvest engineering, food processing, and solar drying technologies. He has guided 19 PhD and 42 M.Tech scholars and has taught across B.Tech, M.Tech, and PhD levels in subjects like Food Processing Equipment Design, Mass Transfer Operations, and Process Control. He has earned multiple national and international recognitions such as the Uttarakhand Governor’s Award for Best Research (2019), Excellence in Research Awards, and numerous best paper/poster awards. His contributions have led to patents both in India and abroad including innovations like a solar-powered dryer, AI-based crop protection device, and edible coating machines. His lifetime citation record places him in the top 6% of scientists globally, with 1387 citations, an h-index of 23, and an i10-index of 47 (as per ResearchGate 2024). Dr. N.C.Shahi continues to contribute extensively to academia and innovation, with a strong dedication to sustainable agricultural technology and rural development.",
     "bio2": "He has led and contributed to 13 externally funded research projects as Principal or Co-Investigator, including notable work on solar drying, zero energy cool chambers, packaging for shelf-life extension, greenhouse vegetable production, and post-harvest technology. His research excellence is reflected in over 80 NAAS-rated publications (44 with NAAS ≥ 8 and 38 between NAAS 4–8), 40 abstracts in proceedings, 12 lead lectures, 7 book chapters/popular articles, and 3 books/lab manuals. His innovative contributions have resulted in several patents both nationally and internationally, such as devices for solar drying, AI-based crop protection, and extruded snacks. He is recognized among the top 6% of researchers globally (ResearchGate, 2024), with 1387 citations, an h-index of 23, and an i10-index of 47. He has also been actively involved in international academic engagements, having visited five countries as a presenter, session chair, and visiting professor. These include a Visiting Professorship at the University of Manitoba, Canada (2023), and academic presentations in Australia (2015), Bosnia and Herzegovina (2016), Malaysia (2018), and Thailand (2019). His research and leadership excellence has earned him several honors such as the Uttarakhand Governor’s Award for Best Research (2019), the Research Leadership Award (2020, USA), Best Paper and Poster Awards, and multiple recognitions from professional engineering bodies. He has attended more than 52 professional development events, continues to mentor research scholars, and remains deeply committed to innovation and sustainable development in agriculture and food processing technologies."
   },
@@ -64,8 +65,77 @@
     "phone": "9558819753",
     "email": "birjesh123@gmail.com",
     "image": "/FacultyPic/bky.JPG",
+    "cv": "https://drive.google.com/file/d/1d9yzC_Lknshx7nA9JVtdiT5JW1Zoj9LQ/preview",
     "bio1": "Dr. Birjesh Kumar Yaduvanshi is a seasoned academic and researcher, currently serving as an Associate Professor in the field of Farm Machinery and Power Engineering. With a Ph.D. and an impressive teaching and research career spanning over 17 years, Dr. Yaduvanshi has significantly contributed to agricultural engineering education and innovation. He has authored 27 research papers, including 20 in reputed international journals and 4 national journal publications, along with 2 book chapters, showcasing his deep expertise in the domain. His technical repertoire includes 5 instructional manuals and 1 technical bulletin, demonstrating his dedication to practical and impactful engineering solutions. He also holds 4 patents, highlighting his innovative approach in the field.",
     "bio2": "Dr. Yaduvanshi has actively participated in 5 training programs and 11 seminars, staying updated with advancements in the agricultural and mechanical engineering fields. He has mentored 4 students across B.Tech, M.Tech, and Ph.D. levels and is currently guiding 2 students, nurturing the next generation of agricultural engineers. His project portfolio includes 8 successfully accomplished projects, with ongoing interest in future research endeavors. Dr. Yaduvanshi continues to inspire through his commitment to academic excellence, innovation, and the development of mechanized solutions for sustainable agriculture."
+  },
+  {
+    "id": "pkm",
+    "fullName": "Dr. Pramod Kumar Mishra",
+    "designation": "Assistant Professor",
+    "highestQualification": "Ph.D.",
+    "specialization": "Farm Machinery and Power Engineering",
+    "totalExperience": "6 Years",
+    "researchPapers": 54,
+    "nationalJournals": 22,
+    "bookChapters": 6,
+    "projectsHandled": 3,
+    "technicalBulletins": 1,
+    "booksISBN": 3,
+    "internationalJournals": 32,
+    "manuals": 2,
+    "patents": 9,
+    "awards": 3,
+    "trainingsAttended": 8,
+    "seminarsAttended": 10,
+    "professionalSocieties": [3],
+    "studentsGuided": {
+      "btechMtechPhd": "29"
+    },
+    "studentsBeingGuided": {
+      "btechMtechPhd": ""
+    },
+    "ongoingProjects": ["3"],
+    "accomplishedProjects": ["8"],
+    "phone": "7837243594",
+    "email": "pramod.btag@gmail.com",
+    "image": "/FacultyPic/pkm.JPG",
+    "bio1": "Dr. Pramod Kumar Mishra is a highly accomplished academician currently serving as an Assistant Professor in the field of Farm Machinery and Power Engineering. With a solid academic foundation marked by a Ph.D., Dr. Mishra brings over six years of teaching and research experience to the department. His dedication to research is evident in his prolific output—he has authored 54 research papers, including 32 in international journals and 22 in national journals, reflecting his global and national academic impact.",
+    "bio2": "In addition to his research publications, Dr. Mishra has contributed to 6 book chapters, authored 3 books with ISBNs, and published 2 technical manuals. His work has led to the development and filing of 9 patents, underscoring his innovative contributions to the field. His active involvement in 3 major research projects and guidance in 8 accomplished projects and 3 ongoing projects shows his leadership in academic project management. An active participant in professional development, he has attended 8 trainings and 10 seminars, keeping him at the forefront of emerging trends and technologies. He has also been recognized with 3 prestigious awards for his contributions to the field. He plays a pivotal role in student development, having guided 29 B.Tech/M.Tech/Ph.D. students, and remains actively involved in mentoring. His engagement with three professional societies further reflects his collaborative spirit and commitment to academic networking. With his combination of research excellence, teaching passion, and technological innovation, Dr. Pramod Kumar Mishra is a cornerstone of the academic and research initiatives in the domain of agricultural engineering."
+  },
+  {
+    "id": "vipul",
+    "fullName": "Dr. Vipul Chaudhary",
+    "designation": "Assistant Professor",
+    "highestQualification": "Ph.D.",
+    "specialization": "Processing and Food Engineering ",
+    "totalExperience": "2.5 Years",
+    "researchPapers": 35,
+    "nationalJournals": 0,
+    "bookChapters": 11,
+    "projectsHandled": 0,
+    "technicalBulletins": 2,
+    "booksISBN": 2,
+    "internationalJournals": 0,
+    "manuals": 3,
+    "patents": 5,
+    "awards": 4,
+    "trainingsAttended": 1,
+    "seminarsAttended": 14,
+    "professionalSocieties": [12],
+    "studentsGuided": {
+      "btechMtechPhd": "5"
+    },
+    "studentsBeingGuided": {
+      "btechMtechPhd": "5"
+    },
+    "ongoingProjects": ["0"],
+    "accomplishedProjects": ["0"],
+    "phone": "9568066641",
+    "email": "vipulchaudhary.in@gmail.com",
+    "image": "/FacultyPic/vipul.JPG",
+    "bio1": "Dr. Vipul Chaudhary is a dedicated and emerging academician currently serving as an Assistant Professor in the domain of Processing and Food Engineering. With a Ph.D. and 2.5 years of academic experience, Dr. Chaudhary has swiftly established himself as a promising researcher and educator. His contributions to academic literature include 35 research papers, alongside an impressive 11 book chapters that highlight his depth of knowledge and commitment to advancing food engineering education. He has authored 2 books with ISBNs, 2 technical bulletins, and 3 manuals, reflecting his practical approach to knowledge dissemination. Dr. Chaudhary’s innovative thinking is further evident in his 5 patents, showcasing his drive for developing applicable technologies within the agricultural and food processing sectors.",
+    "bio2": "Recognized for his excellence, he has received 4 awards and actively participated in 14 seminars and 1 training session, demonstrating both his achievements and eagerness for continuous learning. As a mentor, he has already guided 5 students at various academic levels and is currently mentoring another 5 students, emphasizing his role in shaping future professionals. Though still in the early stages of his academic journey, Dr. Chaudhary is actively involved in 12 professional societies, illustrating his strong network within the academic and research communities. His dedication, scholarly output, and passion for student mentorship make him a valuable asset in the field of agricultural and food engineering."
   },
   {
     "id": "paul-arjun-sanjay",
@@ -138,6 +208,40 @@
     "bio2": "With a specialization in Irrigation and Drainage Engineering, Dr. Shivam serves as an Assistant Professor, bringing over 8 years of academic, research, and field expertise. He has authored 20 research publications, with contributions equally balanced between national and international journals. His academic footprint includes 10 book chapters, a published book (ISBN), and 3 instructional manuals, reflecting his focus on both research depth and educational outreach. A co-investigator in a major research initiative, Dr. Shivam currently oversees an ongoing project and guides both undergraduate/postgraduate (10 students) and doctoral (1 scholar) research work. His innovative approach is evident from the 5 patents he holds in the domain, and he remains actively involved in academic development through regular participation in seminars and faculty training programs. Dr. Shivam’s contributions are a blend of innovation, academic rigor, and mentorship, making him a valuable member of the department and an inspiration to aspiring researchers in the field of sustainable agricultural engineering and water resource management."
   },
   {
+    "id": "neeraj",
+    "fullName": "Dr. Neeraj Kumar Singh",
+    "designation": "Assistant Professor",
+    "highestQualification": "Ph.D.",
+    "specialization": "Renewable Energy Engineering",
+    "totalExperience": "6.5",
+    "researchPapers": 8,
+    "nationalJournals": 6,
+    "bookChapters": 3,
+    "projectsHandled": 5,
+    "technicalBulletins": 3,
+    "booksISBN": 0,
+    "internationalJournals": 2,
+    "manuals": 6,
+    "patents": 1,
+    "awards": 2,
+    "trainingsAttended": 5,
+    "seminarsAttended": 12,
+    "professionalSocieties": [1],
+    "studentsGuided": {
+      "btechMtechPhd": "0"
+    },
+    "studentsBeingGuided": {
+      "btechMtechPhd": "3"
+    },
+    "ongoingProjects": [1],
+    "accomplishedProjects": [5],
+    "phone": "+91 8329321490",
+    "email": "linknrjanduat@gmail.com",
+    "image": "/FacultyPic/neeraj.jpeg",
+    "bio1": "Dr. Neeraj Kumar Singh is an accomplished academic and researcher in the field of Farm Machinery and Power Engineering, currently serving as an Assistant Professor at Mahamaya College of Agricultural Engineering and Technology, Ambedkar Nagar. He holds a Ph.D. from Punjab Agricultural University, Ludhiana, an M.Tech. from SHIATS, Prayagraj, and a B.Tech. in Industrial and Production Engineering. Dr. Singh has previously worked as a Subject Matter Specialist at Krishi Vigyan Kendra, Bahraich, and has held research positions including Senior Research Fellow and Junior Research Fellow at Punjab Agricultural University, contributing to CSIR and DST-funded projects. He has led and co-led several national-level projects, including the Agri Drone Project and initiatives under NICRA and crop residue management. His extensive research contributions are reflected in numerous publications in reputed journals, book chapters, and conference proceedings. In addition, he has authored several popular articles aimed at agricultural extension and farmer education. With a strong background in both academia and industry, Dr. Singh continues to contribute significantly to agricultural mechanization and sustainable farming practices in India.",
+    "bio2": ""
+  },
+  {
     "id": "prabhakar-shukla",
     "fullName": "Dr. Prabhakar Shukla",
     "designation": "Assistant Professor",
@@ -172,6 +276,40 @@
     "bio2": "An accomplished academician and researcher, Dr. Prabhakar Shukla specializes in Farm Machinery and Power Engineering. He has authored and co-authored over 15 research publications, 4 manuals, and several technical bulletins. His contributions to academia are backed by a strong foundation in research and a passion for student mentorship. With 4 prestigious awards and consistent participation in professional development programs, he is a dynamic asset to the academic community."
   },
   {
+    "id": "ankit",
+    "fullName": "Dr. Ankit Parwaliya",
+    "designation": "Assistant Professor",
+    "highestQualification": "Ph.D.",
+    "specialization": "Mathematics",
+    "totalExperience": "03",
+    "researchPapers": 4,
+    "nationalJournals": 0,
+    "bookChapters": 0,
+    "projectsHandled": 0,
+    "technicalBulletins": 0,
+    "booksISBN": 0,
+    "internationalJournals": 0,
+    "manuals": 0,
+    "patents": 0,
+    "awards": 0,
+    "trainingsAttended": 0,
+    "seminarsAttended": 4,
+    "professionalSocieties": [],
+    "studentsGuided": {
+      "btechMtechPhd": ""
+    },
+    "studentsBeingGuided": {
+      "btechMtechPhd": ""
+    },
+    "ongoingProjects": [],
+    "accomplishedProjects": [],
+    "phone": "+91 9877224064",
+    "email": "parwaliyaankit@gmail.com",
+    "image": "/FacultyPic/ankit.jpeg",
+    "bio1": "Dr. Ankit Parwaliya is currently serving as an Assistant Professor in the Department of Basic Engineering and Applied Sciences at MCAET, Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya, Uttar Pradesh. He is an active researcher and educator in the field of Mathematical Sciences, with focused interests in Mathematical Biology, Mathematical Ecology, Nonlinear Dynamics, Population Dynamics, and Dynamical System Theory. He earned his Ph.D. in Mathematics from Atal Bihari Vajpayee Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior, where he worked under the supervision of Dr. Anuraj Singh and Dr. Ajay Kumar. His doctoral thesis, titled “Study of Impact of Delay(s) in Different Prey-Predator Models,” explores the effects of time delays and nonlinear factors in ecological systems, particularly prey-predator interactions. During his doctoral studies, he qualified UGC-CSIR JRF, UGC-CSIR NET, and GATE in Mathematical Sciences in 2017, showcasing his strong academic and analytical foundation. Dr. Parwaliya has authored and co-authored multiple SCIE-indexed international research publications, which include studies on Hopf bifurcations, predator-prey models with discrete delays, fear effects, and complex dynamical behavior in ecological systems. Some of his notable publications are in journals like Mathematical Methods in the Applied Sciences, International Journal of Biomathematics, Journal of Applied Mathematics and Computing, and New Mathematics and Natural Computation. His works emphasize mathematical modeling and simulation of ecological systems under varying constraints, contributing valuable insights to the field of mathematical ecology.",
+    "bio2": "Apart from his research pursuits, he has actively participated in several FDPs, national and international conferences, and workshops, including those on MATLAB applications, mathematical modeling, and statistics for machine learning. He has presented research papers at reputed institutes such as IIT Mandi and South Asian University, and was also a member of the organizing committee for the Recent Advances in Mathematics Workshop at Punjab Engineering College, Chandigarh in 2024. His technical expertise includes working with mathematical tools and software like Mathematica and Matlab, and he is proficient in LaTeX, MS Office, and basic programming tools useful for computational research. Dr. Parwaliya is also dedicated to the practical application of his research in solving real-world ecological and biological problems through mathematical insights. In his teaching role, he aims to foster analytical thinking, promote research-based learning, and guide students in developing strong conceptual foundations in mathematics. His long-term goal is to contribute to high-quality academic and applied research while mentoring the next generation of mathematical scientists. He is fluent in English and Hindi and maintains an updated academic presence through his Google Scholar and ORCID profiles."
+  },
+  {
     "id": "lalit",
     "fullName": "Er. Lalit Kumar",
     "designation": "Assistant Professor",
@@ -204,6 +342,40 @@
     "image": "/FacultyPic/lalit.jpeg",
     "bio1": "Er. Lalit Kumar is a dedicated academician and researcher currently pursuing a Ph.D. in Computer Science and Engineering from Motilal Nehru National Institute of Technology (MNNIT), Allahabad, and is in his 7th semester of research. He holds an M.Tech. in Computer Science and Engineering from Kamla Nehru Institute of Technology (KNIT), Sultanpur, where he was awarded the Gold Medal in 2019, and a B.Tech. in CSE from Dr. A. P. J. Abdul Kalam Technical University. With strong academic credentials, Er. Lalit Kumar has qualified the UGC-NET in Computer Science twice and also cleared the CUCET exam. His research interests include Machine Learning, Deep Learning, Computer Vision, Data & Information Security, and the Internet of Things.",
     "bio2": "He has authored 8+ research publications in reputed SCI, Scopus, and UGC journals, and presented at several IEEE international conferences. His work includes impactful studies in GANs, video synthesis, plant disease detection, and EEG-based cognitive classification. Notable journals include Multimedia Tools and Applications, Computer Animation and Virtual Worlds, and Digital Signal Processing. In addition to publications, Er. Kumar has 3 patents to his credit, including one granted patent in AI-based surveillance. He is proficient in programming languages like C, C++, Java, Python, and also has experience with Verilog and VHDL. He has previously worked as an Assistant Professor at Seth Vishambhar Nath Institute of Engineering & Technology, Barabanki. His dedication to continuous learning is evident from various faculty development programs and technical trainings, including FDPs at IIT Roorkee, KNIT Sultanpur, and certifications from CETPA INFOTECH. With a rich blend of teaching, research, and development experience, Er. Lalit Kumar remains committed to academic excellence and innovation in computer science."
+  },
+  {
+    "id": "sanjay",
+    "fullName": "Dr. Sanjay Kumar Singh ",
+    "designation": "Guest faculty",
+    "highestQualification": "Ph.D.",
+    "specialization": "Organic Chemistry ",
+    "totalExperience": "06",
+    "researchPapers": 8,
+    "nationalJournals": 3,
+    "bookChapters": null,
+    "projectsHandled": null,
+    "technicalBulletins": null,
+    "booksISBN": null,
+    "internationalJournals": 4,
+    "manuals": 2,
+    "patents": 1,
+    "awards": null,
+    "trainingsAttended": null,
+    "seminarsAttended": 10,
+    "professionalSocieties": [],
+    "studentsGuided": {
+      "btechMtechPhd": ""
+    },
+    "studentsBeingGuided": {
+      "btechMtechPhd": ""
+    },
+    "ongoingProjects": [],
+    "accomplishedProjects": [],
+    "phone": "9616004908",
+    "email": "sanjay87in@gmail.com",
+    "image": "/FacultyPic/sanjay.jpeg",
+    "bio1": "Dr. Sanjay Kumar Singh is currently serving as a Guest Faculty member in the Department, bringing with him over six years of teaching experience in the field of Organic Chemistry. He holds a Ph.D. and has a strong academic and research background. Dr. Singh has published a total of eight research papers, with four of them appearing in international journals and three in national journals, showcasing his active engagement in scientific discourse. Additionally, he has contributed to two technical manuals, reflecting his commitment to applied academic work and instructional development.",
+    "bio2": "His academic versatility is further demonstrated by his involvement in ten national seminars, where he has not only expanded his own knowledge but also contributed to discussions on current trends in chemical sciences. He also holds one patent, which indicates his innovative contributions to research and development in his area of specialization. While he has not yet contributed book chapters or handled projects formally, his consistent academic output reflects a focus on building a robust research profile. A member of various professional societies and academic networks, Dr. Singh maintains a strong interest in curriculum development and student learning. He is deeply involved in mentoring and guiding students, and his approachable nature makes him a valuable resource for academic support. His dedication, scholarly achievements, and passion for Organic Chemistry make him a respected figure within the faculty."
   },
   {
     "id": "ashish-gupta",

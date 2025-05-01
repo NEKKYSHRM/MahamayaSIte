@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import React, { useEffect, useState, useRef } from "react";
-import hero1 from "../../public/hero/hero1.jpeg";
-import hero2 from "../../public/hero/hero2.jpeg";
 import vcPic from "../../public/FacultyPic/VC_PIC.jpg";
 import { PiStudentBold } from "react-icons/pi";
 import { GiTeacher } from "react-icons/gi";
@@ -11,7 +9,18 @@ import "./Home.css";
 
 export default function Home() {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
-  const slideImages = [hero1, hero2];
+  const slideImages = [
+    "/hero/hero1.jpeg",
+    "/hero/hero2.jpeg",
+    "/hero/hero3.jpeg",
+    "/hero/hero4.jpg",
+    "/hero/hero5.jpg",
+    "/hero/hero7.jpg",
+    "/hero/hero8.jpg",
+    "/hero/hero9.jpg",
+    "/hero/hero10.jpg",
+    "/hero/hero11.jpg",
+  ];
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -131,126 +140,17 @@ export default function Home() {
   return (
     <>
       <main className="xl-w-full flex flex-col">
-        <div className="navSide">
-          <ul>
-            <li>
-              <a href="sideNav-HTML-Pages/administration.html">
-                Administration
-              </a>
-            </li>
-            <li>
-              <a href="sideNav-HTML-Pages/departments.html">Departments</a>
-            </li>
-            <li>
-              <a href="sideNav-HTML-Pages/faculty.html">Faculty</a>
-            </li>
-            <li>
-              <a href="sideNav-HTML-Pages/placement.html">Placement</a>
-            </li>
-            <li>
-              <a href="/courses">Course Catalouge</a>
-            </li>
-            <li>
-              <a href="sideNav-HTML-Pages/examinationCell.html">
-                Examination Cell
-              </a>
-            </li>
-            <li>
-              <a href="sideNav-HTML-Pages/resources.html">Resources</a>
-            </li>
-          </ul>
-        </div>
-
         {/* Hero Section */}
-        <section className="hero">
-          <div className="hero-link">
-            <ul>
-              <button>
-                <a href="/administration">Administration</a>
-              </button>
-              <button>
-                <a href="/departments/fmpe/aboutDpt">Departments</a>
-              </button>
-              <button>
-                <a href="/faculty">Faculty</a>
-              </button>
-              <button>
-                <a href="/placement">Placement</a>
-              </button>
-              <button>
-                <a href="/courses">Course Catalouge</a>
-              </button>
-              <button>
-                <a href="sideNav-HTML-Pages/examinationCell.html">
-                  Examination Cell
-                </a>
-              </button>
-              <button>
-                <a href="mtechphd-students">M.Tech/Ph.D. Students</a>
-              </button>
-            </ul>
-          </div>
-          <div className="hero-slider">
-            <div className="slides">
+        <section className="w-full box-border">
+          <div className="hero-slider md:px-10 md:py-3">
+            <div className="w-full h-[300px] md:h-[700px] flex justify-center items-center mx-auto relative rounded-lg overflow-hidden border-2">
               <Image
-                id="slideImg"
                 src={slideImages[currentSlideIndex]}
                 alt={`Slide ${currentSlideIndex + 1}`}
+                fill
+                style={{ objectFit: "cover" }}
               />
             </div>
-          </div>
-          <div className="flex w-full px-5 mt-3 md:mt-0">
-            <table className="w-full border-2 border-slate-400">
-              <thead>
-                <tr>
-                  <th className="text-white table-head text-center text-base xl:text-base xl:p-2">
-                    News & Events
-                  </th>
-                </tr>
-              </thead>
-              <tbody
-                ref={tableBodyRef}
-                className="w-full text-left divide-y divide-gray-300"
-              >
-                {newsItems.map((item, index) => (
-                  <tr
-                    key={index}
-                    className="hover:bg-yellow-100 w-full transition"
-                  >
-                    <td className="px-2 py-0 md:py-2 md:px-4 w-full  text-blue-600 hover:underline flex font-semibold items-center gap-2">
-                      <a href="#" className="block w-full">
-                        {item}
-                      </a>
-                      {item === newsItemTitle && (
-                        <span className="bg-red-500 text-white text-[10px] px-1.5 py-0.5 rounded-full uppercase animate-pulse">
-                          New
-                        </span>
-                      )}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-              <tfoot>
-                <tr>
-                  <th className="text-center bg-slate-300 text-black p-2 cursor-pointer hover:text-blue-600">
-                    View More
-                  </th>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
-          <div className="separation"></div>
-        </section>
-
-        {/* College pic */}
-        <section className="w-full">
-          <div className="w-full h-36 md:h-72 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden">
-            <Image
-              src="/gallery/mcaet.jpg"
-              alt={`College Pic`}
-              fill
-              style={{ objectFit: "cover" }}
-            />
           </div>
         </section>
 
@@ -296,16 +196,28 @@ export default function Home() {
           </div>
         </section>
 
+        {/* College pic */}
+        <section className="w-full">
+          <div className="w-full h-36 md:h-72 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden">
+            <Image
+              src="/gallery/mcaet.jpg"
+              alt={`College Pic`}
+              fill
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+        </section>
+
         {/* Dean Message */}
-        <section className="w-full py-8 px-4 md:px-16 flex flex-col gap-4 xl:gap-8 justify-around bg-gray-50">
-          <div className="flex gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-between items-center md:px-2">
-            <div className="flex flex-col md:gap-1 bg-white border-r-2 text-center justify-center items-center p-2 md:p-4 w-full">
+        <section className="w-full py-8 flex flex-col md:grid md:grid-cols-2 px-4 md:px-16 gap-4 xl:gap-8 justify-around bg-gray-50">
+          <div className="flex flex-col gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-between items-center md:px-2 md:py-3">
+            <div className="flex flex-col md:gap-1 text-center justify-center items-center p-2 md:p-4 w-full">
               <Image
                 src="/FacultyPic/dean.JPG"
                 width={500}
                 height={300}
                 alt=""
-                className="w-18 h-18 md:w-36 md:h-36 rounded-full border-pink border-2"
+                className="w-20 h-20 md:w-18 md:h-18 md:w-36 md:h-36 rounded-full border-pink border-2"
               ></Image>
               <h3 className="font-bold text-blue-950 text-[8px] md:text-lg">
                 Dr. N.C. Shahi
@@ -330,6 +242,46 @@ export default function Home() {
                 </i>
               </p>
             </div>
+          </div>
+          <div className="flex w-full px-5 mt-3 md:mt-0">
+            <table className="w-full border-2 border-slate-400">
+              <thead>
+                <tr>
+                  <th className="text-white table-head text-center text-base xl:text-base xl:p-2">
+                    News & Events
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                ref={tableBodyRef}
+                className="w-full text-left divide-y divide-gray-300"
+              >
+                {newsItems.map((item, index) => (
+                  <tr
+                    key={index}
+                    className="hover:bg-yellow-100 w-full transition"
+                  >
+                    <td className="px-2 py-0 md:py-2 md:px-4 w-full  text-blue-600 hover:underline flex font-semibold items-center gap-2">
+                      <a href="#" className="block w-full">
+                        {item}
+                      </a>
+                      {item === newsItemTitle && (
+                        <span className="bg-red-500 text-white text-[10px] px-1.5 py-0.5 rounded-full uppercase animate-pulse">
+                          New
+                        </span>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th className="text-center bg-slate-300 text-black p-2 cursor-pointer hover:text-blue-600">
+                    View More
+                  </th>
+                </tr>
+              </tfoot>
+            </table>
           </div>
         </section>
 

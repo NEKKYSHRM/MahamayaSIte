@@ -12,7 +12,7 @@ export default function LeftNav() {
     <div className="w-full h-full border-l-2 border-dotted border-slate-300 text-black p-2">
       <ul className="py-3">
         <li
-          onClick={() => router.push("/departments/cse/aboutDpt")}
+          onClick={() => router.push("/departments/me/aboutDpt")}
           className="font-bold px-3 py-2 bg-orange-500 text-white rounded-md cursor-pointer"
         >
           About Department
@@ -20,12 +20,12 @@ export default function LeftNav() {
         <ul className="font-semibold px-3">
           <li
             onClick={() => {
-              router.push("/departments/cse/hod");
+              router.push("/departments/me/hod");
             }}
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
               hover:underline hover:bg-green-300
               ${
-                pathname === "/departments/pfe/hod"
+                pathname === "/departments/me/hod"
                   ? "text-orange-500 font-bold "
                   : ""
               }`}
@@ -33,11 +33,11 @@ export default function LeftNav() {
             Head of Department
           </li>
           <li
-            onClick={() => router.push("/departments/cse/vision_mission")}
+            onClick={() => router.push("/departments/me/vision_mission")}
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
               hover:underline hover:bg-green-300
               ${
-                pathname === "/departments/pfe/vision_mission"
+                pathname === "/departments/me/vision_mission"
                   ? "text-orange-500 font-bold "
                   : ""
               }`}
@@ -45,11 +45,11 @@ export default function LeftNav() {
             Vision & Mission
           </li>
           <li
-          onClick={() => router.push("/departments/cse/faculty")}
+          onClick={() => router.push("/departments/me/faculty")}
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
                     hover:underline hover:bg-green-300
                     ${
-                      pathname === "/departments/fmpe/faculty"
+                      pathname === "/departments/me/faculty"
                         ? "text-orange-500 font-bold "
                         : ""
                     }`}
@@ -57,11 +57,11 @@ export default function LeftNav() {
             Faculty
           </li>
           <li
-            onClick={() => router.push("/departments/cse/courseProgram")}
+            onClick={() => router.push("/departments/me/courseProgram")}
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
               hover:underline hover:bg-green-300
               ${
-                pathname === "/departments/fmpe/courseProgram"
+                pathname === "/departments/me/courseProgram"
                   ? "text-orange-500 font-bold "
                   : ""
               }`}

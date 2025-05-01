@@ -49,7 +49,7 @@ export default function LeftNav() {
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
                     hover:underline hover:bg-green-300
                     ${
-                      pathname === "/departments/fmpe/faculty"
+                      pathname === "/departments/pfe/faculty"
                         ? "text-orange-500 font-bold "
                         : ""
                     }`}
@@ -61,7 +61,7 @@ export default function LeftNav() {
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
               hover:underline hover:bg-green-300
               ${
-                pathname === "/departments/fmpe/courseProgram"
+                pathname === "/departments/pfe/courseProgram"
                   ? "text-orange-500 font-bold "
                   : ""
               }`}
@@ -73,7 +73,7 @@ export default function LeftNav() {
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
               hover:underline hover:bg-green-300
               ${
-                pathname === "/departments/fmpe/pgStudents"
+                pathname === "/departments/pfe/pgStudents"
                   ? "text-orange-500 font-bold "
                   : ""
               }`}
@@ -85,7 +85,7 @@ export default function LeftNav() {
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
               hover:underline hover:bg-green-300
               ${
-                pathname === "/departments/fmpe/patent"
+                pathname === "/departments/pfe/patent"
                   ? "text-orange-500 font-bold "
                   : ""
               }`}

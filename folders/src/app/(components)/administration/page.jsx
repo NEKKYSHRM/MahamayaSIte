@@ -1,11 +1,31 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import axios from "axios";
 import vcPic from "../../../../public/FacultyPic/VC_PIC.jpg";
 
 function page() {
+  const [facultyData, setFacultyData] = useState([]);
+
+  useEffect(() => {
+    const callApi = async () => {
+      try {
+        const res = await fetch("/Data/faculty.json");
+        if (!res.ok) {
+          throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+        const data = await res.json();
+        setFacultyData(data);
+      } catch (error) {
+        console.error("Failed to load faculty data:", error);
+      }
+    };
+
+    callApi();
+  }, []);
+
   return (
     <div className="w-full flex flex-col justify-center bg-gray-50 items-center py-12 px-36">
       <div className="w-full text-center bg-white shadow-md shadow-zinc-600 py-3">
@@ -13,7 +33,7 @@ function page() {
         <div className="w-full bg-green-500 py-0.5 my-4"></div>
       </div>
 
-      <div className="w-full grid grid-rows-8 bg-white shadow-md shadow-zinc-600">
+      <div className="w-full grid grid-rows-7 bg-white shadow-md shadow-zinc-600">
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
             <Image
@@ -34,9 +54,15 @@ function page() {
               <div className="w-full py-0.5 bg-slate-800"></div>
             </div>
             <div className="flex flex-col gap-2 my-5 font-bold">
-              <p>Prof. N. C. Shahi</p>
+              <p>Prof. N.C. Shahi</p>
               <p>Phone : +91 94157 19422,</p>
               <p>Email : deanmcaet@gmail.com</p>
+              <Link
+                href={`/faculty/nc-shahi`}
+                className="underline text-blue-600 hover:text-blue-800"
+              >
+                Visit Profile
+              </Link>
             </div>
           </div>
         </div>
@@ -63,10 +89,15 @@ function page() {
               <p>Dr. Vijay Kumar Singh</p>
               <p>Phone : +91 99926 61719,</p>
               <p>Email : deanmcaet@gmail.com</p>
+              <Link
+                href={`/faculty/v`}
+                className="underline text-blue-600 hover:text-blue-800"
+              >
+                Visit Profile
+              </Link>
             </div>
           </div>
         </div>
-
         <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
           <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
             <Image
@@ -90,6 +121,12 @@ function page() {
               <p>Dr. Paul Arjun Sanjay</p>
               <p>Phone : +91 89529 85774,</p>
               <p>Email : deanmcaet@gmail.com</p>
+              <Link
+                href={`/faculty/paul-arjun-sanjay`}
+                className="underline text-blue-600 hover:text-blue-800"
+              >
+                Visit Profile
+              </Link>
             </div>
           </div>
         </div>
@@ -116,6 +153,12 @@ function page() {
               <p>Dr. Vipul Chaudhary</p>
               <p>Phone : +91 95680 66641,</p>
               <p>Email : deanmcaet@gmail.com</p>
+              <Link
+                href={`/faculty/paul-arjun-sanjay`}
+                className="underline text-blue-600 hover:text-blue-800"
+              >
+                Visit Profile
+              </Link>
             </div>
           </div>
         </div>
@@ -133,7 +176,7 @@ function page() {
               <div className="w-full py-0.5 bg-slate-800"></div>
               <div className="my-2">
                 <span className="text-green-900 font-extrabold text-2xl">
-                  Technical Coordinator
+                  Technical Coordinator & Chief Hostel Warden
                 </span>
               </div>
               <div className="w-full py-0.5 bg-slate-800"></div>
@@ -142,32 +185,12 @@ function page() {
               <p>Dr. P. K. Mishra</p>
               <p>Phone : +91 78372 43594,</p>
               <p>Email : deanmcaet@gmail.com</p>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
-          <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
-            <Image
-              src="/FacultyPic/pkm.JPG"
-              alt={`student's profile`}
-              fill
-              style={{ objectFit: "cover" }}
-            />
-          </div>
-          <div className="flex flex-col m-3">
-            <div className="w-full">
-              <div className="w-full py-0.5 bg-slate-800"></div>
-              <div className="my-2">
-                <span className="text-green-900 font-extrabold text-2xl">
-                  Chief Hostel Warden
-                </span>
-              </div>
-              <div className="w-full py-0.5 bg-slate-800"></div>
-            </div>
-            <div className="flex flex-col gap-2 my-5 font-bold">
-              <p>Dr. P.K. Mishra</p>
-              <p>Phone : +91 78372 43594,</p>
-              <p>Email : deanmcaet@gmail.com</p>
+              <Link
+                href={`/faculty/pkm`}
+                className="underline text-blue-600 hover:text-blue-800"
+              >
+                Visit Profile
+              </Link>
             </div>
           </div>
         </div>
@@ -185,7 +208,7 @@ function page() {
               <div className="w-full py-0.5 bg-slate-800"></div>
               <div className="my-2">
                 <span className="text-green-900 font-extrabold text-2xl">
-                  Asstt. Hostel Warden (Girls Hostel)
+                  Asstt. Hostel Warden (Girls Hostel & Kaveri Hostel)
                 </span>
               </div>
               <div className="w-full py-0.5 bg-slate-800"></div>
@@ -194,32 +217,12 @@ function page() {
               <p>Dr. Vikas Kumar Singh</p>
               <p>Phone : +91 96355 08287,</p>
               <p>Email : deanmcaet@gmail.com</p>
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-[1fr_3fr] p-3 place-content-center">
-          <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
-            <Image
-              src="/FacultyPic/vikas.JPG"
-              alt={`student's profile`}
-              fill
-              style={{ objectFit: "cover" }}
-            />
-          </div>
-          <div className="flex flex-col m-3">
-            <div className="w-full">
-              <div className="w-full py-0.5 bg-slate-800"></div>
-              <div className="my-2">
-                <span className="text-green-900 font-extrabold text-2xl">
-                  Asstt. Hostel Warden (Kaveri Hostel)
-                </span>
-              </div>
-              <div className="w-full py-0.5 bg-slate-800"></div>
-            </div>
-            <div className="flex flex-col gap-2 my-5 font-bold">
-              <p>Dr. Vikas Kumar Singh</p>
-              <p>Phone : +91 96355 08287,</p>
-              <p>Email : deanmcaet@gmail.com</p>
+              <Link
+                href={`/faculty/v`}
+                className="underline text-blue-600 hover:text-blue-800"
+              >
+                Visit Profile
+              </Link>
             </div>
           </div>
         </div>
@@ -246,6 +249,12 @@ function page() {
               <p>Dr. Manish Kumar</p>
               <p>Phone : +91 97593 22799,</p>
               <p>Email : deanmcaet@gmail.com</p>
+              <Link
+                href={`/faculty/v`}
+                className="underline text-blue-600 hover:text-blue-800"
+              >
+                Visit Profile
+              </Link>
             </div>
           </div>
         </div>
