@@ -80,6 +80,180 @@ export default function page() {
                   </table>
                 </td>
               </tr>
+              <tr>
+                <td className="border border-black p-4 w-1/3 text-center">
+                  <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
+                    <Image
+                      src="/FacultyPic/sanjay.jpeg"
+                      alt={`student's profile`}
+                      fill
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                </td>
+                <td className="border border-black w-2/3">
+                  <table className="w-full">
+                    <tbody className="">
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Name
+                        </td>
+                        <td className="w-3/4 font-bold text-sm text-left align-top">
+                          : Dr. Sanjay Kumar Singh  
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Designation
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Guest Faculty
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Specialization
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Organic Chemistry 
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Phone
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : +91 9616004908
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Email
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : sanjay87in@gmail.com
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-black p-4 w-1/3 text-center">
+                  <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
+                    <Image
+                      src="/FacultyPic/sweta.jpg"
+                      alt={`student's profile`}
+                      fill
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                </td>
+                <td className="border border-black w-2/3">
+                  <table className="w-full">
+                    <tbody className="">
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Name
+                        </td>
+                        <td className="w-3/4 font-bold text-sm text-left align-top">
+                          : Dr. Sweta Kumari 
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Designation
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Guest Faculty
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Specialization
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Condensed matter Physics 
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Phone
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : +91 9438051382
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Email
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : swetatiwarysindri@gmail.com
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-black p-4 w-1/3 text-center">
+                  <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
+                    <Image
+                      src="/FacultyPic/seema.JPG"
+                      alt={`student's profile`}
+                      fill
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                </td>
+                <td className="border border-black w-2/3">
+                  <table className="w-full">
+                    <tbody className="">
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Name
+                        </td>
+                        <td className="w-3/4 font-bold text-sm text-left align-top">
+                          : Er. Seema 
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Designation
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Guest Faculty
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Specialization
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Structural Engineering
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Phone
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : +91 8009104948
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Email
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : seemaexam95@gmail.com
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

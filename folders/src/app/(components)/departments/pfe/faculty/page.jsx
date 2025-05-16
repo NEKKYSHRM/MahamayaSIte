@@ -49,7 +49,7 @@ export default function page() {
                           Designation
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : Head of Department cum Associate Professor
+                          : Head of Department & Associate Professor
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -65,7 +65,7 @@ export default function page() {
                           Phone
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : +91 1234567890
+                          : 
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -73,7 +73,7 @@ export default function page() {
                           Email
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : hod@gmail.com
+                          : 
                         </td>
                       </tr>
                     </tbody>
@@ -84,7 +84,7 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
-                      src="/FacultyPic/dean.JPG"
+                      src="/FacultyPic/dean.jpeg"
                       alt={`student's profile`}
                       fill
                       style={{ objectFit: "cover" }}
@@ -123,7 +123,7 @@ export default function page() {
                           Phone
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : +91 1234567890
+                          : +91 9675782120
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -131,7 +131,7 @@ export default function page() {
                           Email
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : hod@gmail.com
+                          : ncshahi2025@gmail.com
                         </td>
                       </tr>
                     </tbody>
@@ -181,7 +181,7 @@ export default function page() {
                           Phone
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : +91 1234567890
+                          : +91 9568066641
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -189,7 +189,7 @@ export default function page() {
                           Email
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : hod@gmail.com
+                          : vipulchaudhary.in@gmail.com
                         </td>
                       </tr>
                     </tbody>

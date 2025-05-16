@@ -20,6 +20,8 @@ export default function Home() {
     "/hero/hero9.jpg",
     "/hero/hero10.jpg",
     "/hero/hero11.jpg",
+    "/hero/hero12.jpg",
+    "/hero/hero13.jpeg",
   ];
 
   useEffect(() => {
@@ -143,7 +145,7 @@ export default function Home() {
         {/* Hero Section */}
         <section className="w-full box-border">
           <div className="hero-slider md:px-10 md:py-3">
-            <div className="w-full h-[300px] md:h-[700px] flex justify-center items-center mx-auto relative rounded-lg overflow-hidden border-2">
+            <div className="w-full h-[300px] md:h-[550px] flex justify-center items-center mx-auto relative rounded-lg overflow-hidden border-2">
               <Image
                 src={slideImages[currentSlideIndex]}
                 alt={`Slide ${currentSlideIndex + 1}`}
@@ -213,7 +215,7 @@ export default function Home() {
           <div className="flex flex-col gap-1 bg-white shadow-slate-400 shadow-lg border-black border-2 text-center justify-between items-center md:px-2 md:py-3">
             <div className="flex flex-col md:gap-1 text-center justify-center items-center p-2 md:p-4 w-full">
               <Image
-                src="/FacultyPic/dean.JPG"
+                src="/FacultyPic/dean.jpeg"
                 width={500}
                 height={300}
                 alt=""

@@ -80,6 +80,64 @@ export default function page() {
                   </table>
                 </td>
               </tr>
+              <tr>
+                <td className="border border-black p-4 w-1/3 text-center">
+                  <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
+                    <Image
+                      src="/FacultyPic/neeraj.jpeg"
+                      alt={`student's profile`}
+                      fill
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                </td>
+                <td className="border border-black w-2/3">
+                  <table className="w-full">
+                  <tbody className="">
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Name
+                        </td>
+                        <td className="w-3/4 font-bold text-sm text-left align-top">
+                          : Dr. Neeraj Kumar Singh
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Designation
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Assistant Professor
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Specialization
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Renewable Energy Engineering
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Phone
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : +91 8329321490
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Email
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : linknrjanduat@gmail.com
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>

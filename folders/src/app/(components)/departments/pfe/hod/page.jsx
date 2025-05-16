@@ -54,11 +54,10 @@ export default function page() {
                       </tr>
                       <tr className="h-12">
                         <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
-                          Address
+                          Specialization
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : Principal Extension Scientist(FMPE)-cum-Head Deptt.
-                          of Farm Machinery & Power Engineering
+                          : Process & Food Engineering
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -66,7 +65,7 @@ export default function page() {
                           Phone
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : +91 1234567890
+                          : 
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -74,7 +73,7 @@ export default function page() {
                           Email
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : hod@gmail.com
+                          : 
                         </td>
                       </tr>
                     </tbody>

@@ -56,7 +56,7 @@ export default function LeftNav() {
           >
             Faculty
           </li>
-          <li
+          {/* <li
             onClick={() => router.push("/departments/ide/courseProgram")}
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
               hover:underline hover:bg-green-300
@@ -67,19 +67,7 @@ export default function LeftNav() {
               }`}
           >
             Course Program
-          </li>
-          <li
-            onClick={() => router.push("/departments/ide/projectSubmitted")}
-            className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
-              hover:underline hover:bg-green-300
-              ${
-                pathname === "/departments/ide/projectSubmitted"
-                  ? "text-orange-500 font-bold "
-                  : ""
-              }`}
-          >
-            Projects Submitted
-          </li>
+          </li> */}
           <li
             onClick={() => router.push("/departments/ide/runningProjects")}
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
@@ -90,7 +78,7 @@ export default function LeftNav() {
                   : ""
               }`}
           >
-            Running Projects
+            Research Activities
           </li>
         </ul>
       </ul>

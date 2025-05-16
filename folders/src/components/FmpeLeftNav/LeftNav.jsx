@@ -94,18 +94,6 @@ export default function LeftNav() {
             Patents
           </li>
           <li
-            onClick={() => router.push("/departments/fmpe/projectSubmitted")}
-            className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
-              hover:underline hover:bg-green-300
-              ${
-                pathname === "/departments/fmpe/projectSubmitted"
-                  ? "text-orange-500 font-bold "
-                  : ""
-              }`}
-          >
-            Projects Submitted
-          </li>
-          <li
             onClick={() => router.push("/departments/fmpe/runningProjects")}
             className={`py-2 relative pl-6 cursor-pointer before:content-['→'] before:absolute before:left-0 before:text-black
               hover:underline hover:bg-green-300
@@ -115,7 +103,7 @@ export default function LeftNav() {
                   : ""
               }`}
           >
-            Running Projects
+            Research Activities
           </li>
         </ul>
       </ul>

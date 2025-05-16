@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function page() {
   return (
-    <div className="w-full items-start grid grid-cols-[25%_50%_25%] place-items-center bg-white box-border">
+    <div className="w-full min-h-screen overflow-y-auto items-start grid grid-cols-[25%_50%_25%] place-items-center bg-white box-border">
       <div className="h-full">
         <RightNav />
       </div>

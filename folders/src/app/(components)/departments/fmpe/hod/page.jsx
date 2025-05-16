@@ -49,16 +49,15 @@ export default function page() {
                           Designation
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : Associate Professor cum Associate Dean
+                          : Associate Professor & Associate Dean
                         </td>
                       </tr>
                       <tr className="h-12">
                         <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
-                          Address
+                          Specialization
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : Principal Extension Scientist(FMPE)-cum-Head Deptt.
-                          of Farm Machinery & Power Engineering
+                          : Farm Machinery & Power Engineering
                         </td>
                       </tr>
                       <tr className="h-12">

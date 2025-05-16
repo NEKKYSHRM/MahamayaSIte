@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="sticky top-0 z-50 shadow-sm shadow-slate-400">
       <nav>
         <div className="mainNavbar">
           <ul>
@@ -20,46 +20,6 @@ export default function Navbar() {
               <Link href="/aboutus" className="Navbar-Link">
                 About Us
               </Link>
-            </li>
-            <li>
-              Admissions
-              <img src="/down-arrow.png" alt="Arrow-Down" />
-              <div className="sub-menu w-52">
-                <ul>
-                  <li>
-                    <Link href="/admissions" className="Navbar-Link">
-                      Admission Process
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://upcatet.org/site/pdf/upcatet_online_counselling_schedule.pdf"
-                      target="_blank"
-                      className="Navbar-Link"
-                    >
-                      Brouchre
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://drive.google.com/file/d/1JBr5sJSfA9A5mGsR3INPIo4d89ZO1_sC/view"
-                      target="_blank"
-                      className="Navbar-Link"
-                    >
-                      Fees
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://nduat.org/pdf/Academic%20Calendar%202024-25%20II%20Sem.pdf"
-                      target="_blank"
-                      className="Navbar-Link"
-                    >
-                      Academic Calender
-                    </Link>
-                  </li>
-                </ul>
-              </div>
             </li>
             <li>
               Administrations
@@ -144,18 +104,71 @@ export default function Navbar() {
               </div>
             </li>
             <li>
-                <Link href="#" className="Navbar-Link">
-                  PG/Ph.D. Students
+              Admissions
+              <img src="/down-arrow.png" alt="Arrow-Down" />
+              <div className="sub-menu w-52">
+                <ul>
+                  <li>
+                    <Link href="/admissions" className="Navbar-Link">
+                      Admission Process
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://upcatet.org/site/pdf/upcatet_online_counselling_schedule.pdf"
+                      target="_blank"
+                      className="Navbar-Link"
+                    >
+                      Brouchre
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://drive.google.com/file/d/1JBr5sJSfA9A5mGsR3INPIo4d89ZO1_sC/view"
+                      target="_blank"
+                      className="Navbar-Link"
+                    >
+                      Fees
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://nduat.org/pdf/Academic%20Calendar%202024-25%20II%20Sem.pdf"
+                      target="_blank"
+                      className="Navbar-Link"
+                    >
+                      Academic Calender
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+                <Link href="/placement" className="Navbar-Link">
+                  Placement
                 </Link>
             </li>
             <li>
-              <Link href="/placement" className="Navbar-Link">
-                Placement
-              </Link>
+                Events
+                <img src="/down-arrow.png" alt="Arrow-Down" />
+              <div className="sub-menu w-48">
+                <ul>
+                  <li>
+                    <Link href="/2025-event" className="Navbar-Link">
+                      2025 Event's MCAET
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/faculty" className="Navbar-Link">
+                      2024 Event's MCAET
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li>
-              <Link href="/media" className="Navbar-Link">
-                Gallery
+              <Link href="/contactus" className="Navbar-Link">
+                Contact Us
               </Link>
             </li>
           </ul>

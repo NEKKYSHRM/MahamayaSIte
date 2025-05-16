@@ -15,25 +15,13 @@ export default function page() {
         <div className="w-full flex flex-col justify-center text-center">
           <h2 className="text-black font-bold text-2xl mb-4">Vision</h2>
           <p className="text-gray-700 font-semibold text-sm text-justify">
-            To become a center of excellence in Mechanical Engineering
-            education, research, and innovation by nurturing technically
-            competent, socially responsible, and ethically grounded engineers
-            capable of contributing to industry, society, and sustainable
-            development.
+            The Department of Basic Engineering and Applied Sciences (BEAS) envisions becoming a center of excellence in foundational engineering education and interdisciplinary research. It aims to equip students with a strong base in physics, chemistry, mathematics, and fundamental engineering principles, fostering critical thinking, innovation, and a scientific temperament that supports lifelong learning and advanced technical education.
           </p>
         </div>
         <div className="w-full flex flex-col justify-center text-center">
           <h2 className="text-black font-bold text-2xl mb-4">Mission</h2>
           <p className="text-gray-700 font-semibold text-sm text-justify">
-            The Department of Mechanical Engineering is committed to imparting
-            strong fundamental knowledge and hands-on technical skills through
-            quality teaching, practical training, and industry exposure. We aim
-            to foster creativity, critical thinking, and problem-solving
-            abilities in students to prepare them for successful careers in
-            engineering, research, and entrepreneurship. The department actively
-            promotes professional ethics, lifelong learning, and sustainable
-            practices to empower students to meet the evolving global challenges
-            in mechanical and allied engineering domains.
+            Our mission is to provide high-quality education in basic sciences and engineering fundamentals that support all branches of engineering. The department is committed to creating a learner-centric environment that integrates theoretical concepts with practical applications. Through continuous curriculum enhancement, research initiatives, and value-based learning, BEAS strives to build competent professionals capable of contributing to technological advancements and addressing real-world challenges ethically and sustainably.
           </p>
         </div>
       </div>
