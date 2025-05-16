@@ -19,7 +19,6 @@ export default function Home() {
     "/hero/hero8.jpg",
     "/hero/hero9.jpg",
     "/hero/hero10.jpg",
-    "/hero/hero11.jpg",
     "/hero/hero12.jpg",
     "/hero/hero13.jpeg",
   ];
