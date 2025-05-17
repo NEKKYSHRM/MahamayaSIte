@@ -150,6 +150,7 @@ export default function Home() {
           content="Official website of MCAET - Department info, faculty, contact, and more."
         />
         <meta name="robots" content="index, follow" />
+        <meta name="google-site-verification" content="2C6KH1qwwiGzEjO6QV3BMIT24FMI-J94NmUg2PhdpGw" />
         <link rel="canonical" href="https://mcaet.vercel.app" />
       </Head>
 
