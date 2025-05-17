@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Head from "next/head";
 import React, { useEffect, useState, useRef } from "react";
 import vcPic from "../../public/FacultyPic/VC_PIC.jpg";
 import { PiStudentBold } from "react-icons/pi";
@@ -15,11 +16,11 @@ export default function Home() {
     "/hero/hero3.jpeg",
     "/hero/hero4.jpg",
     "/hero/hero5.jpg",
+    "/hero/hero6.jpeg",
     "/hero/hero7.jpg",
-    "/hero/hero8.jpg",
     "/hero/hero9.jpg",
     "/hero/hero10.jpg",
-    "/hero/hero12.jpg",
+    "/hero/hero12.JPG",
     "/hero/hero13.jpeg",
   ];
 
@@ -140,6 +141,18 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>
+          MCAET | Mahamaya College of Agricultural Engineering & Technology
+        </title>
+        <meta
+          name="description"
+          content="Official website of MCAET - Department info, faculty, contact, and more."
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://mcaet.vercel.app" />
+      </Head>
+
       <main className="xl-w-full flex flex-col">
         {/* Hero Section */}
         <section className="w-full box-border">

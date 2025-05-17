@@ -4,6 +4,8 @@ import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
 import MeLeftNav from "@/components/meLeftNav/LeftNav";
 import Image from "next/image";
+import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function page() {
   return (
@@ -26,6 +28,68 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
+                      src="/FacultyPic/ankit.jpeg"
+                      alt={`student's profile`}
+                      fill
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                </td>
+                <td className="border border-black w-2/3">
+                  <table className="w-full">
+                    <tbody className="">
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Name
+                        </td>
+                        <td className="w-3/4 flex hover:text-blue-700 items-center gap-1 font-bold text-sm text-left align-top">
+                          :
+                          <Link href="/faculty/ankit">
+                            Dr. Ankit Parwaliya
+                          </Link>
+                          <FaExternalLinkAlt />
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Designation
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Assistant Professor
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Specialization
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : Mathematical Modelling
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Phone
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : +91 9877224064
+                        </td>
+                      </tr>
+                      <tr className="h-12">
+                        <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
+                          Email
+                        </td>
+                        <td className="w-3/4 font-semibold text-sm text-left align-top">
+                          : parwaliyaankit@gmail.com
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-black p-4 w-1/3 text-center">
+                  <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
+                    <Image
                       src="/FacultyPic/sushil.jpeg"
                       alt={`student's profile`}
                       fill
@@ -40,8 +104,12 @@ export default function page() {
                         <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
                           Name
                         </td>
-                        <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : Dr. Sushil Kumar Choudhary 
+                        <td className="w-3/4 flex hover:text-blue-700 items-center gap-1 font-bold text-sm text-left align-top">
+                          :
+                          <Link href="/faculty/sushil-kumar-choudhary">
+                            Dr. Sushil Kumar Choudhary
+                          </Link>
+                          <FaExternalLinkAlt />
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -98,8 +166,12 @@ export default function page() {
                         <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
                           Name
                         </td>
-                        <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : Dr. Sanjay Kumar Singh  
+                        <td className="w-3/4 flex hover:text-blue-700 items-center gap-1 font-bold text-sm text-left align-top">
+                          :
+                          <Link href="/faculty/sanjay">
+                            Dr. Sanjay Kumar Singh
+                          </Link>
+                          <FaExternalLinkAlt />
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -156,8 +228,12 @@ export default function page() {
                         <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
                           Name
                         </td>
-                        <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : Dr. Sweta Kumari 
+                        <td className="w-3/4 flex hover:text-blue-700 items-center gap-1 font-bold text-sm text-left align-top">
+                          :
+                          <Link href="/faculty/sweta-tiwari">
+                            Dr. Sweta Kumari
+                          </Link>
+                          <FaExternalLinkAlt />
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -214,8 +290,12 @@ export default function page() {
                         <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
                           Name
                         </td>
-                        <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : Er. Seema 
+                        <td className="w-3/4 flex hover:text-blue-700 items-center gap-1 font-bold text-sm text-left align-top">
+                          :
+                          <Link href="/faculty/seema">
+                            Er. Seema
+                          </Link>
+                          <FaExternalLinkAlt />
                         </td>
                       </tr>
                       <tr className="h-12">

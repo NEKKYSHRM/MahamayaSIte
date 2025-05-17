@@ -4,6 +4,8 @@ import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
 import SwceLeftNav from "@/components/SwceLeftNav/LeftNav";
 import Image from "next/image";
+import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function page() {
   return (
@@ -26,7 +28,7 @@ export default function page() {
                 <td className="border border-black p-4 w-1/3 text-center">
                   <div className="w-52 h-60 flex justify-center items-center mx-auto relative rounded-sm overflow-hidden border-2">
                     <Image
-                      src="/FacultyPic/vikas.JPG"
+                      src="/FacultyPic/dean.jpeg"
                       alt={`student's profile`}
                       fill
                       style={{ objectFit: "cover" }}
@@ -40,8 +42,9 @@ export default function page() {
                         <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
                           Name
                         </td>
-                        <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : Dr. Vikas Kumar Singh
+                        <td className="w-3/4 flex hover:text-blue-700 items-center gap-1 font-bold text-sm text-left align-top">
+                          :<Link href="/faculty/nc-shahi">Prof. N.C. Shahi</Link>
+                          <FaExternalLinkAlt />
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -49,7 +52,7 @@ export default function page() {
                           Designation
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : Assistant Professor
+                          : Professor & Dean MCAET
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -57,7 +60,7 @@ export default function page() {
                           Specialization
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : Soil Water & Conservation Engineering
+                          : Process & Food Engineering
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -65,7 +68,7 @@ export default function page() {
                           Phone
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : -
+                          : +91 9675782120
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -73,7 +76,7 @@ export default function page() {
                           Email
                         </td>
                         <td className="w-3/4 font-semibold text-sm text-left align-top">
-                          : -
+                          : ncshahi2025@gmail.com
                         </td>
                       </tr>
                     </tbody>
@@ -94,10 +97,14 @@ export default function page() {
             </thead>
             <tbody>
               <tr className="">
-                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">Dr. Shivam is an Assistant Professor in the Department of Agricultural Engineering, specializing in Irrigation and Drainage Engineering. With over 8 years of academic and research experience, Dr. Shivam holds a Ph.D. and has made significant contributions to the field through both teaching and applied research. His scholarly work includes 20 research papers published in reputed national and international journals, along with 10 book chapters and a book with an ISBN. He has actively participated in various training programs and seminars, contributing to his all-rounded academic profile. As a co-principal investigator, he has played a pivotal role in executing a funded research project and is currently guiding one Ph.D. scholar while having successfully mentored 10 B.Tech/M.Tech students. Dr. Shivam has also authored multiple technical bulletins and manuals, furthering practical understanding in his domain. Notably, he has 5 patents to his name, underlining his innovation in the field, and has been recognized with two academic awards. His contributions extend beyond the classroom and into the realm of impactful research and innovation, aligning with the evolving needs of agricultural and water management systems.</td>
+                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">
+                  Dr. N.C. Shahi, born on 11th September 1973, is a distinguished academician, researcher, and administrator with over 27 years of experience spanning teaching, research, and industry. Currently serving as the Head of the Department of Post-Harvest Process and Food Engineering (PHP&FE), College of Technology, GBPUAT, Pantnagar, he has previously held key positions including Professor and Associate Professor at the same department, and Assistant Professor at SKUAST-K, Srinagar. With a Ph.D. in Process and Food Engineering (2014) and an M.Tech in Agricultural Engineering (1997), his research focuses on agriculture mechanization, post-harvest engineering, food processing, and solar drying technologies. He has guided 19 PhD and 42 M.Tech scholars and has taught across B.Tech, M.Tech, and PhD levels in subjects like Food Processing Equipment Design, Mass Transfer Operations, and Process Control. He has earned multiple national and international recognitions such as the Uttarakhand Governor’s Award for Best Research (2019), Excellence in Research Awards, and numerous best paper/poster awards. His contributions have led to patents both in India and abroad including innovations like a solar-powered dryer, AI-based crop protection device, and edible coating machines. His lifetime citation record places him in the top 6% of scientists globally, with 1387 citations, an h-index of 23, and an i10-index of 47 (as per ResearchGate 2024). Dr. N.C.Shahi continues to contribute extensively to academia and innovation, with a strong dedication to sustainable agricultural technology and rural development.
+                </td>
               </tr>
               <tr className="">
-                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">With a specialization in Irrigation and Drainage Engineering, Dr. Shivam serves as an Assistant Professor, bringing over 8 years of academic, research, and field expertise. He has authored 20 research publications, with contributions equally balanced between national and international journals. His academic footprint includes 10 book chapters, a published book (ISBN), and 3 instructional manuals, reflecting his focus on both research depth and educational outreach. A co-investigator in a major research initiative, Dr. Shivam currently oversees an ongoing project and guides both undergraduate/postgraduate (10 students) and doctoral (1 scholar) research work. His innovative approach is evident from the 5 patents he holds in the domain, and he remains actively involved in academic development through regular participation in seminars and faculty training programs. Dr. Shivam’s contributions are a blend of innovation, academic rigor, and mentorship, making him a valuable member of the department and an inspiration to aspiring researchers in the field of sustainable agricultural engineering and water resource management.</td>
+                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">
+                  He has led and contributed to 13 externally funded research projects as Principal or Co-Investigator, including notable work on solar drying, zero energy cool chambers, packaging for shelf-life extension, greenhouse vegetable production, and post-harvest technology. His research excellence is reflected in over 80 NAAS-rated publications (44 with NAAS ≥ 8 and 38 between NAAS 4–8), 40 abstracts in proceedings, 12 lead lectures, 7 book chapters/popular articles, and 3 books/lab manuals. His innovative contributions have resulted in several patents both nationally and internationally, such as devices for solar drying, AI-based crop protection, and extruded snacks. He is recognized among the top 6% of researchers globally (ResearchGate, 2024), with 1387 citations, an h-index of 23, and an i10-index of 47. He has also been actively involved in international academic engagements, having visited five countries as a presenter, session chair, and visiting professor. These include a Visiting Professorship at the University of Manitoba, Canada (2023), and academic presentations in Australia (2015), Bosnia and Herzegovina (2016), Malaysia (2018), and Thailand (2019). His research and leadership excellence has earned him several honors such as the Uttarakhand Governor’s Award for Best Research (2019), the Research Leadership Award (2020, USA), Best Paper and Poster Awards, and multiple recognitions from professional engineering bodies. He has attended more than 52 professional development events, continues to mentor research scholars, and remains deeply committed to innovation and sustainable development in agriculture and food processing technologies.
+                </td>
               </tr>
             </tbody>
           </table>

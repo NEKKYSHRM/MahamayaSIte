@@ -39,8 +39,8 @@ export default function Footer() {
               Mahamaya College Of Agricultural Engineering & Technology,
               Akbarpur, Ambedkar Nagar, 224122 (U.P.)
             </p>
-            <p>Phone :</p>
-            <p>Email : </p>
+            <p>Phone : +91 90766 11211</p>
+            <p>Email : manishfmpe1612@gmail.com </p>
           </div>
           <hr style={{ order: 2 }} />
           <div className="footer-lists">
@@ -87,7 +87,7 @@ export default function Footer() {
                 <Link href="https://nduat.org/pdf/Academic%20Calendar%202024-25%20II%20Sem.pdf" target="_blank">Academic Calendar</Link>
               </li>
               <li className="hover:underline">
-                <Link href="#">Sitemap</Link>
+                <Link href="/sitemap.xml">Sitemap</Link>
               </li>
             </ul>
           </div>
@@ -103,7 +103,7 @@ export default function Footer() {
                 <Link href="/aboutus">About Us</Link>
               </li>
               <li className="hover:underline">
-                <Link href="#">Contact Us</Link>
+                <Link href="/contactus">Contact Us</Link>
               </li>
             </ul>
           </div>

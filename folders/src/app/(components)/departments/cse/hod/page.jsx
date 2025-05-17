@@ -4,6 +4,8 @@ import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
 import CseLeftNav from "@/components/cseLeftNav/LeftNav";
 import Image from "next/image";
+import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function page() {
   return (
@@ -40,8 +42,12 @@ export default function page() {
                         <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
                           Name
                         </td>
-                        <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : Dr. Brijesh Kumar Yaduvanshi
+                        <td className="w-3/4 flex hover:text-blue-700 items-center gap-1 font-bold text-sm text-left align-top">
+                          :
+                          <Link href="/faculty/birjesh-kumar-yaduvanshi">
+                            Dr. Brijesh Kumar Yaduvanshi
+                          </Link>
+                          <FaExternalLinkAlt />
                         </td>
                       </tr>
                       <tr className="h-12">
@@ -94,10 +100,37 @@ export default function page() {
             </thead>
             <tbody>
               <tr className="">
-                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">Dr. Birjesh Kumar Yaduvanshi is a seasoned academic and researcher, currently serving as an Associate Professor in the field of Farm Machinery and Power Engineering. With a Ph.D. and an impressive teaching and research career spanning over 17 years, Dr. Yaduvanshi has significantly contributed to agricultural engineering education and innovation. He has authored 27 research papers, including 20 in reputed international journals and 4 national journal publications, along with 2 book chapters, showcasing his deep expertise in the domain. His technical repertoire includes 5 instructional manuals and 1 technical bulletin, demonstrating his dedication to practical and impactful engineering solutions. He also holds 4 patents, highlighting his innovative approach in the field.</td>
+                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">
+                  Dr. Birjesh Kumar Yaduvanshi is a seasoned academic and
+                  researcher, currently serving as an Associate Professor in the
+                  field of Farm Machinery and Power Engineering. With a Ph.D.
+                  and an impressive teaching and research career spanning over
+                  17 years, Dr. Yaduvanshi has significantly contributed to
+                  agricultural engineering education and innovation. He has
+                  authored 27 research papers, including 20 in reputed
+                  international journals and 4 national journal publications,
+                  along with 2 book chapters, showcasing his deep expertise in
+                  the domain. His technical repertoire includes 5 instructional
+                  manuals and 1 technical bulletin, demonstrating his dedication
+                  to practical and impactful engineering solutions. He also
+                  holds 4 patents, highlighting his innovative approach in the
+                  field.
+                </td>
               </tr>
               <tr className="">
-                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">Dr. Yaduvanshi has actively participated in 5 training programs and 11 seminars, staying updated with advancements in the agricultural and mechanical engineering fields. He has mentored 4 students across B.Tech, M.Tech, and Ph.D. levels and is currently guiding 2 students, nurturing the next generation of agricultural engineers. His project portfolio includes 8 successfully accomplished projects, with ongoing interest in future research endeavors. Dr. Yaduvanshi continues to inspire through his commitment to academic excellence, innovation, and the development of mechanized solutions for sustainable agriculture.</td>
+                <td className="px-4 py-2 text-gray-700 text-sm text-justify w-1/4 font-medium align-top">
+                  Dr. Yaduvanshi has actively participated in 5 training
+                  programs and 11 seminars, staying updated with advancements in
+                  the agricultural and mechanical engineering fields. He has
+                  mentored 4 students across B.Tech, M.Tech, and Ph.D. levels
+                  and is currently guiding 2 students, nurturing the next
+                  generation of agricultural engineers. His project portfolio
+                  includes 8 successfully accomplished projects, with ongoing
+                  interest in future research endeavors. Dr. Yaduvanshi
+                  continues to inspire through his commitment to academic
+                  excellence, innovation, and the development of mechanized
+                  solutions for sustainable agriculture.
+                </td>
               </tr>
             </tbody>
           </table>

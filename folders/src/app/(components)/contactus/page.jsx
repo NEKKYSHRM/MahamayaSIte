@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
+import axios from "axios";
 
-export default function page() {
+export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -14,10 +15,36 @@ export default function page() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // TODO: send the form data to backend or email service
-    alert("Message sent successfully!");
+    console.log(formData);
+    
+    const { name, email, subject, message } = formData;
+
+    try {
+      const res = await axios.post("/api/contactUs", {
+        name,
+        email,
+        subject,
+        message,
+      });
+
+      if (res.data.success) {
+        alert("Message sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        }); 
+      } else {
+        alert("Error sending message.");
+        console.log("Error: ", res.data);
+      }
+    } catch (error) {
+      console.error("Request failed:", error);
+      alert("Something went wrong. Please try again later.");
+    }
   };
 
   return (
@@ -95,25 +122,52 @@ export default function page() {
               <h2 className="text-xl font-semibold mb-2 text-green-600">
                 Our Address
               </h2>
-              <p>Mahamaya College of Agricultural Engineering & Technology, Akbarpur, Ambedkar Nagar, U.P. (224122)
+              <p>
+                Mahamaya College of Agricultural Engineering & Technology,
+                Akbarpur, Ambedkar Nagar, U.P. (224122)
               </p>
               <p>Near Shiv Baba, Faizabad Marg</p>
               <p className="mt-2">
-                📞{" "}
+                <b>Phone :</b>{" "}
                 <a
-                  href="tel:+911234567890"
+                  href="tel:+919076611211"
                   className="text-blue-600 hover:underline"
                 >
-                  +91 12345 67890
+                  +91 90766 11211
                 </a>
               </p>
               <p>
-                📧{" "}
+                <b>Email :</b>{" "}
                 <a
-                  href="mailto:info@example.com"
+                  href="mailto:manishfmpe1612@gmail.com"
                   className="text-blue-600 hover:underline"
                 >
-                  info@example.com
+                  manishfmpe1612@gmail.com
+                </a>
+              </p>
+            </div>
+
+            <div className="bg-white py-4 px-6 rounded-lg shadow-md">
+              <h2 className="text-lg font-semibold text-green-700">
+                Developer's Contact
+              </h2>
+              <p className="text-gray-500 font-semibold">Nikhil Kumar Sharma</p>
+              <p className="mt-2">
+                <b>Phone :</b>{" "}
+                <a
+                  href="tel:+919795930369"
+                  className="text-blue-600 hover:underline"
+                >
+                  +91 97959 30369
+                </a>
+              </p>
+              <p>
+                <b>Email :</b>{" "}
+                <a
+                  href="mailto:nikhilkumarsharman815@gmail.com"
+                  className="text-blue-600 hover:underline"
+                >
+                  nikhilkumarsharman815@gmail.com
                 </a>
               </p>
             </div>

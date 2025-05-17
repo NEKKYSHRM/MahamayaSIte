@@ -21,7 +21,7 @@ export default function page() {
         <div className="px-24 w-full">
           <div className="w-full h-64 flex justify-center relative rounded-sm overflow-hidden border-2 border-green-500">
             <Image
-              src="/DepartmentsPic/ide/ide.png"
+              src="/DepartmentsPic/ide/ide.jpeg"
               alt={`student's profile`}
               fill
               style={{ objectFit: "cover" }}

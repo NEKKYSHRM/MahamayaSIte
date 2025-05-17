@@ -4,6 +4,8 @@ import React from "react";
 import RightNav from "@/components/RightNav/RightNav";
 import FmpeLeftNav from "@/components/FmpeLeftNav/LeftNav";
 import Image from "next/image";
+import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function page() {
   return (
@@ -40,8 +42,9 @@ export default function page() {
                         <td className="px-4 font-bold text-sm w-1/4 text-left align-top">
                           Name
                         </td>
-                        <td className="w-3/4 font-bold text-sm text-left align-top">
-                          : Er. Ramjeet Singh
+                        <td className="w-3/4 flex hover:text-blue-700 items-center gap-1 font-bold text-sm text-left align-top">
+                          :<Link href="/faculty/rjs">Er. Ramjeet Singh</Link>
+                          <FaExternalLinkAlt />
                         </td>
                       </tr>
                       <tr className="h-12">
